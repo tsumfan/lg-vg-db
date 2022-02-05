@@ -1,0 +1,6 @@
+{
+    "@type": "Game",
+    "name": "Fortune Summoners",
+    "platform": { "@id": "platform-pc" },
+    "image": "images/1.jpg"
+}

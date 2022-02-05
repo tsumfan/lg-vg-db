@@ -1,0 +1,29 @@
+{
+    "@type": "DefinitionList",
+    "@id": "platform-deflist",
+    "entry": [
+        {
+            "@type": "Platform",
+            "@id": "platform-pc",
+            "name": "PC",
+            "description": "Catch-all term for personal computers"
+        },
+        {
+            "@type": "Platform",
+            "@id": "platform-snes",
+            "name": "SNES",
+            "description": "The Super Nintendo Entertainment System (SNES), commonly shortened to Super NES or Super Nintendo, is a 16-bit home video game console developed by Nintendo using a 6502 processor that ran from 1990-2003"
+        },
+        {
+            "@type": "Platform",
+            "@id": "platform-nes",
+            "name": "NES",
+            "description": "The Nintendo Entertainment System"
+        },
+        {
+            "@type": "Platform",
+            "@id": "platform-N64",
+            "name": "Nintendo 64"
+        }
+    ]
+}

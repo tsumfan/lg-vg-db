@@ -1,0 +1,5 @@
+{
+    "@type": "Genre",
+    "@id": "genre-action-rpg",
+    "name": "Action RPG"
+}
