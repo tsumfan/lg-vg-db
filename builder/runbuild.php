@@ -11,4 +11,5 @@ foreach ( $files as $file ) {
 $builder->addInverseLinks('Platform', 'game', 'Game', 'platform');
 $builder->addInverseLinks('Series', 'game', 'Game', 'series');
 $builder->addInverseLinks('Genre', 'game', 'Game', 'genre');
-var_dump($builder->itemGraph);
+require_once "load_renderers.php";
+\GraphRenderer\execute_renders($builder);

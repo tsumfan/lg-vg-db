@@ -9,12 +9,17 @@ class GraphLink {
         $this->graph = $graph;
         $this->id = $id;
     }
+
+    public function getItem() {
+        return $this->graph->itemGraph[$this->id];
+    }
 }
 
 class Graph {
     public $vocabNamespace = 'LgVocab';
     public $encountered = 0;
     public $itemGraph = [];
+    public $linkObjectExamined = [];
 
     public function addEntry($obj) {
         if ( is_object($obj) && !empty($obj->{"@type"}) && class_exists("{$this->vocabNamespace}\\".$obj->{'@type'}) ) {
@@ -69,5 +74,10 @@ class Graph {
                 }
             }
         }
+    }
+
+    public function getAllByType($type) {
+        $vocabType = $this->vocabNamespace . '\\'. $type;
+        return array_filter ( $this->itemGraph, function($item) use ($vocabType) { return get_class($item) == $vocabType; } );
     }
 }
