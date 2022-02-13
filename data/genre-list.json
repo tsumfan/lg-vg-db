@@ -1,0 +1,51 @@
+{
+    "@type": "DefinitionList",
+    "@id": "platform-deflist",
+    "entry": [
+        {
+            "@type": "Genre",
+            "@id": "genre-puzzle",
+            "name": "Puzzle"
+        },
+        {
+            "@type": "Genre",
+            "@id": "genre-rhythm",
+            "name": "Rhythm"
+        },
+        {
+            "@type": "Genre",
+            "@id": "genre-survival-horror",
+            "name": "Survival Horror"
+        },
+        {
+            "@type": "Genre",
+            "@id": "genre-rpg",
+            "name": "RPG"
+        },
+        {
+            "@type": "Genre",
+            "@id": "genre-3d-platformer",
+            "name": "3D Platformer"
+        },
+        {
+            "@type": "Genre",
+            "@id": "genre-platformer",
+            "name": "Platformer"
+        },
+        {
+            "@type": "Genre",
+            "@id": "genre-jrpg",
+            "name": "JRPG"
+        },
+        {
+            "@type": "Genre",
+            "@id": "genre-scrolling-shooter",
+            "name": "Scrolling Shooter"
+        },
+        {
+            "@type": "Genre",
+            "@id": "genre-adventure",
+            "name": "Adventure"
+        }
+    ]
+}

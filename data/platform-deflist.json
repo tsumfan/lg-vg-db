@@ -10,6 +10,36 @@
         },
         {
             "@type": "Platform",
+            "@id": "platform-ps2",
+            "name": "PlayStation 2",
+            "description": "Second generation of the playstation series."
+        },
+        {
+            "@type": "Platform",
+            "@id": "platform-vita",
+            "name": "Vita",
+            "description": "Sony's second handheld console"
+        },
+        {
+            "@type": "Platform",
+            "@id": "platform-psp",
+            "name": "PSP",
+            "description": "Sony's first handheld console."
+        },
+        {
+            "@type": "Platform",
+            "@id": "platform-ds",
+            "name": "Nintendo DS/DSi",
+            "description": "Nintendo's original dual-screen hand-held console."
+        },
+        {
+            "@type": "Platform",
+            "@id": "platform-3ds",
+            "name": "Nintendo 3DS/2DS",
+            "description": "Second generation dual-screen handheld."
+        },
+        {
+            "@type": "Platform",
             "@id": "platform-snes",
             "name": "SNES",
             "description": "The Super Nintendo Entertainment System (SNES), commonly shortened to Super NES or Super Nintendo, is a 16-bit home video game console developed by Nintendo using a 6502 processor that ran from 1990-2003"
