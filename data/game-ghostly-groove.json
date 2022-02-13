@@ -1,0 +1,10 @@
+{
+    "@type": "Game",
+    "@id": "game-ghostly-groove",
+    "genre": [{"@id": "genre-rhythm"}],
+    "platform": [
+        {"@id": "platform-3ds"}
+    ],
+    "name": "Gabrielle's Ghostly Groove",
+    "image": "images/5.jpg"
+}

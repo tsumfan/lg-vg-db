@@ -1,17 +1,41 @@
 <?php
 namespace GraphBuilder;
 
+/**
+ * GraphLinks will pass through gets, sets and calls to their targets.
+ */
 class GraphLink {
-    public $graph;
-    public $id;
+    protected $_graph;
+    protected $_id;
 
     public function __construct($id, $graph) {
-        $this->graph = $graph;
-        $this->id = $id;
+        $this->_graph = $graph;
+        $this->_id = $id;
     }
 
-    public function getItem() {
-        return $this->graph->itemGraph[$this->id];
+    public function _getItem() {
+        return $this->_graph->itemGraph[$this->_id];
+    }
+
+    public function __call($name, $args) {
+        $graphtarget = $this->_graph->itemGraph[$this->_id];
+        if ( is_callable( [$graphtarget,$name] ) ) {
+            return call_user_func_array( [$graphtarget, $name], $args );
+        }
+        throw new \Exception("Could not call {$name} against graph target {$this->_id}");
+    }
+
+    public function __get($name) {
+        if ( $this->_graph->itemGraph[$this->_id] ) {
+            return $this->_graph->itemGraph[$this->_id]->{$name};
+        }
+        return null;
+    }
+
+    public function __set($name, $value) {
+        if ( $this->graph->itemGraph[$this->_id] ) {
+            return $this->graph->itemGraph[$this->_id]->{$name} = $value;
+        }
     }
 }
 

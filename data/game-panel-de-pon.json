@@ -1,0 +1,10 @@
+{
+    "@type": "Game",
+    "@id": "game-panel-de-pon",
+    "genre": [{"@id": "genre-puzzle"}],
+    "platform": [
+        {"@id": "platform-snes"}
+    ],
+    "name": "Panel de Pon",
+    "image": "images/7.jpg"
+}

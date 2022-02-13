@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
+<head>
 
+</head>
 <body>
 <?php
-$games = $this->graph->getAllByType('Game');
 
-foreach($games as $game) {
-    echo '<div class="game">'.$game->name.'</div>';
+foreach($entries as $entry) {
+    include 'index-entry.php';
 }
 
 ?>

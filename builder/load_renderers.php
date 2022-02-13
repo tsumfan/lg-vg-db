@@ -20,7 +20,7 @@ trait FileOutput {
     }
 
     public function ensureOutputDirectory($dirname) {
-        if ( !is_dir( $desired = $this->rawPathToDocs . $dirname ) ) {
+        if ( !is_dir( $desired = $this->rawPathToDocs() .'/'. $dirname ) ) {
             mkdir( $desired, 0755, true );
         }
     }
@@ -37,7 +37,8 @@ foreach ( $renderers as $renderfile ) {
 
 function execute_renders($graph) {
     foreach ( get_declared_classes() as $class ) {
-        if ( in_array('GraphRenderer\Renderer', class_implements($class) ) ) {
+        $reflection = new \ReflectionClass($class);
+        if ( $reflection->implementsInterface('GraphRenderer\Renderer') && !$reflection->isAbstract() ) {
             $renderer = new $class($graph);
             $renderer->render();
         }

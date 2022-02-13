@@ -24,9 +24,15 @@ Game:
 
 Thing:
 * thumbnail: image(s)
+* altName: Alternative name(s) of the the entry
 * name: name of object
 * description: Optional description
 * link: Links to outside sources
+* image: image(s)
+
+Image:
+* name: image filename
+* caption: caption string
 
 Link:
 * name: Link name

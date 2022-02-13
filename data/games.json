@@ -1,0 +1,389 @@
+{
+    "@type": "DefinitionList",
+    "@id": "platform-deflist",
+    "entry": [
+        {
+            "@type": "Series",
+            "@id": "game-cardcaptor-sakura-games",
+            "name": "Cardcaptor Sakura Games",
+            "genre": [
+                {
+                    "@id": "genre-adventure"
+                },
+                {
+                    "@id": "genre-puzzle"
+                },
+                {
+                    "@id": "genre-rpg"
+                },
+                {
+                    "@id": "genre-action"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-ps1"
+                },
+                {
+                    "@id": "platform-dreamcast"
+                },
+                {
+                    "@id": "platform-wonder-swan"
+                },
+                {
+                    "@id": "platform-gba"
+                }
+            ],
+            "image": "images\/9.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-painter-momo-pie",
+            "name": "Painter Momo Pie",
+            "genre": [
+                {
+                    "@id": "genre-action"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-gameboy"
+                }
+            ],
+            "image": "images\/10.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-phantom-brave",
+            "name": "Phantom Brave",
+            "genre": [
+                {
+                    "@id": "genre-tactical-rpg"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-ps2"
+                },
+                {
+                    "@id": "platform-psp"
+                },
+                {
+                    "@id": "platform-wii"
+                },
+                {
+                    "@id": "platform-pc"
+                }
+            ],
+            "image": "images\/11.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-a-hat-in-time",
+            "name": "A Hat in Time",
+            "genre": [
+                {
+                    "@id": "genre-3d-platformer"
+                },
+                {
+                    "@id": "genre-collectathon"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-pc"
+                },
+                {
+                    "@id": "platform-xbox-one"
+                },
+                {
+                    "@id": "platform-ps4"
+                },
+                {
+                    "@id": "platform-switch"
+                }
+            ],
+            "image": "images\/12.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-tengoku-cruisinmix",
+            "name": "Tengoku CruisinMix",
+            "genre": [
+                {
+                    "@id": "genre-shoot-em-up"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-ps4"
+                },
+                {
+                    "@id": "platform-pc"
+                }
+            ],
+            "image": "images\/13.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-moekuri",
+            "name": "Moekuri",
+            "genre": [
+                {
+                    "@id": "genre-strategy"
+                },
+                {
+                    "@id": "genre-jrpg"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-pc"
+                }
+            ],
+            "image": "images\/14.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-cleopatra-fortune",
+            "name": "Cleopatra Fortune",
+            "genre": [
+                {
+                    "@id": "genre-puzzle"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-arcade"
+                },
+                {
+                    "@id": "platform-sega-saturn"
+                },
+                {
+                    "@id": "platform-ps1"
+                },
+                {
+                    "@id": "platform-dreamcast"
+                },
+                {
+                    "@id": "platform-android"
+                }
+            ],
+            "image": "images\/15.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-resette-s-prescription",
+            "name": "Resette's Prescription",
+            "genre": [
+                {
+                    "@id": "genre-puzzle"
+                },
+                {
+                    "@id": "genre-point-click"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-pc"
+                }
+            ],
+            "image": "images\/16.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-fuwaru-no-bouken",
+            "name": "Fuwaru no Bouken",
+            "genre": [
+                {
+                    "@id": "genre-platformer"
+                },
+                {
+                    "@id": "genre-jrpg"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-pc"
+                }
+            ],
+            "image": "images\/17.jpg"
+        },
+        {
+            "@type": "Series",
+            "@id": "game-pocky-rocky-kiki-kaikai-series",
+            "name": "Pocky & Rocky \/ KiKi KaiKai Series",
+            "genre": [
+                {
+                    "@id": "genre-scrolling-shooter"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-arcade"
+                },
+                {
+                    "@id": "platform-msx2"
+                },
+                {
+                    "@id": "platform-pc-engine"
+                },
+                {
+                    "@id": "platform-ps4"
+                },
+                {
+                    "@id": "platform-famicom-disk-system"
+                },
+                {
+                    "@id": "platform-snes"
+                },
+                {
+                    "@id": "platform-gba"
+                },
+                {
+                    "@id": "platform-switch"
+                },
+                {
+                    "@id": "platform-mobile"
+                },
+                {
+                    "@id": "platform-pc"
+                }
+            ],
+            "image": "images\/19.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-cotton",
+            "name": "Cotton",
+            "genre": [
+                {
+                    "@id": "genre-scrolling-shooter"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-arcade"
+                },
+                {
+                    "@id": "platform-turbografx-16"
+                },
+                {
+                    "@id": "platform-x86000"
+                },
+                {
+                    "@id": "platform-ps1"
+                },
+                {
+                    "@id": "platform-neo-geo-pocket-color"
+                }
+            ],
+            "image": "images\/20.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-fairy-bloom-freesia",
+            "name": "Fairy Bloom Freesia",
+            "genre": [
+                {
+                    "@id": "genre-action"
+                },
+                {
+                    "@id": "genre-beat-em-up"
+                },
+                {
+                    "@id": "genre-jrpg"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-pc"
+                }
+            ],
+            "image": "images\/21.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-etrian-odyssey-series",
+            "name": "Etrian Odyssey Series",
+            "genre": [
+                {
+                    "@id": "genre-rpg"
+                },
+                {
+                    "@id": "genre-dungeon-crawler"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-ds"
+                },
+                {
+                    "@id": "platform-3ds"
+                }
+            ],
+            "image": "images\/22.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-my-garden",
+            "name": "My Garden",
+            "genre": [
+                {
+                    "@id": "genre-strategy"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-ps1"
+                }
+            ],
+            "image": "images\/23.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-a-rose-in-the-twilight",
+            "name": "A Rose in the Twilight",
+            "genre": [
+                {
+                    "@id": "genre-adventure"
+                },
+                {
+                    "@id": "genre-puzzle-platformer"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-pc"
+                },
+                {
+                    "@id": "platform-vita"
+                }
+            ],
+            "image": "images\/24.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-stretch-panic",
+            "name": "Stretch Panic",
+            "altNames": [
+                "Freak Out",
+                "Hippa Linda"
+            ],
+            "genre": [
+                {
+                    "@id": "genre-action"
+                },
+                {
+                    "@id": "genre-platformer"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-ps2"
+                }
+            ],
+            "image": "images\/25.jpg"
+        }
+    ]
+}

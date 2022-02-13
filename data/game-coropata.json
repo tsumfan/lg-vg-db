@@ -1,0 +1,7 @@
+{
+    "@type": "Game",
+    "name": "Coropata",
+    "platform": [{ "@id": "platform-pc" }, { "@id": "platform-ds"}],
+    "genre": [{"@id": "genre-puzzle"}],
+    "image": "images/18.jpg"
+}

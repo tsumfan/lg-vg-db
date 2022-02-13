@@ -4,33 +4,33 @@
     "entry": [
         {
             "@type": "Genre",
-            "@id": "genre-puzzle",
-            "name": "Puzzle"
-        },
-        {
-            "@type": "Genre",
-            "@id": "genre-rhythm",
-            "name": "Rhythm"
-        },
-        {
-            "@type": "Genre",
-            "@id": "genre-survival-horror",
-            "name": "Survival Horror"
-        },
-        {
-            "@type": "Genre",
-            "@id": "genre-rpg",
-            "name": "RPG"
-        },
-        {
-            "@type": "Genre",
             "@id": "genre-3d-platformer",
             "name": "3D Platformer"
         },
         {
             "@type": "Genre",
-            "@id": "genre-platformer",
-            "name": "Platformer"
+            "@id": "genre-action",
+            "name": "Action"
+        },
+        {
+            "@type": "Genre",
+            "@id": "genre-adventure",
+            "name": "Adventure"
+        },
+        {
+            "@type": "Genre",
+            "@id": "genre-beat-em-up",
+            "name": "Beat 'em up"
+        },
+        {
+            "@type": "Genre",
+            "@id": "genre-collectathon",
+            "name": "Collectathon"
+        },
+        {
+            "@type": "Genre",
+            "@id": "genre-dungeon-crawler",
+            "name": "Dungeon Crawler"
         },
         {
             "@type": "Genre",
@@ -39,13 +39,58 @@
         },
         {
             "@type": "Genre",
+            "@id": "genre-platformer",
+            "name": "Platformer"
+        },
+        {
+            "@type": "Genre",
+            "@id": "genre-point-click",
+            "name": "Point & Click"
+        },
+        {
+            "@type": "Genre",
+            "@id": "genre-puzzle",
+            "name": "Puzzle"
+        },
+        {
+            "@type": "Genre",
+            "@id": "genre-puzzle-platformer",
+            "name": "Puzzle-Platformer"
+        },
+        {
+            "@type": "Genre",
+            "@id": "genre-rhythm",
+            "name": "Rhythm"
+        },
+        {
+            "@type": "Genre",
+            "@id": "genre-rpg",
+            "name": "RPG"
+        },
+        {
+            "@type": "Genre",
             "@id": "genre-scrolling-shooter",
             "name": "Scrolling Shooter"
         },
         {
             "@type": "Genre",
-            "@id": "genre-adventure",
-            "name": "Adventure"
+            "@id": "genre-shoot-em-up",
+            "name": "Shoot 'em up"
+        },
+        {
+            "@type": "Genre",
+            "@id": "genre-strategy",
+            "name": "Strategy"
+        },
+        {
+            "@type": "Genre",
+            "@id": "genre-survival-horror",
+            "name": "Survival Horror"
+        },
+        {
+            "@type": "Genre",
+            "@id": "genre-tactical-rpg",
+            "name": "Tactical RPG"
         }
     ]
 }
