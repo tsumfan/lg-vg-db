@@ -6,7 +6,7 @@ use GraphRenderer\Helpers;?>
     <link href="style.css" rel="stylesheet" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php if (!empty($node)): ?>
-        <title><?=Helpers::esc($node->{"@type"})?> | <?=Helpers::esc($node->name ?: "Untitled")?></title>
+        <title><?=Helpers::esc($node->{"@type"})?> | <?=Helpers::esc($node->name ?: "Untitled")?> | Play as a Little Girl</title>
     <?php else: ?>
         <title><?=Helpers::projectTitle();?></title>
     <?php endif; ?>
