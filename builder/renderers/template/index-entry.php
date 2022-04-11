@@ -26,35 +26,43 @@ if ( $image && is_file( $this->getDataLocation($image->name) ) ) {
 }
 ?>
 <div class="index-entry">
-    <?php if($thumbsrc): ?>
-        <img src="<?=$thumbsrc?>" alt="<?=Helpers::esc($thumbcaption)?>">
-    <?php endif; ?>
-    <h2><?=Helpers::esc($entry->name)?></h2>
-    <?php if (!empty($genre)): ?>
-        <div class="genre-list">
-            <?php foreach($genre as $tag_entry): ?>
-                <?php if(is_object($tag_entry)): ?>
-                    <span class="linked-genre" data-genre-id="<?=Helpers::esc($tag_entry->id)?>">
-                        <a href="<?=Helpers::esc($tag_entry->id)?>.html">
-                            <?=Helpers::esc($tag_entry->name)?>
-                        </a>
-                    </span>
-                <?php else : ?>
-                    <span class="unlinked-genre"><?=Helpers::esc($tag_entry);?></span>
-                <?php endif; ?>
-            <?php endforeach;?>
+    <div class="thumb-area">
+        <?php if($thumbsrc): ?>
+            <img src="<?=$thumbsrc?>" alt="<?=Helpers::esc($thumbcaption)?>">
+        <?php endif; ?>
+    </div>
+    <div class="entry-meta">
+        <h2><?=Helpers::esc($entry->name)?></h2>
+        <?php if (!empty($genre)): ?>
+            <div class="genre-list">
+                <?php foreach($genre as $tag_entry): ?>
+                    <?php if(is_object($tag_entry)): ?>
+                        <span class="linked-genre tag-style" data-genre-id="<?=Helpers::esc($tag_entry->id)?>">
+                            <a href="<?=Helpers::esc($tag_entry->id)?>.html">
+                                <?=Helpers::esc($tag_entry->name)?>
+                            </a>
+                        </span>
+                    <?php else : ?>
+                        <span class="unlinked-genre unlinked-genre"><?=Helpers::esc($tag_entry);?></span>
+                    <?php endif; ?>
+                <?php endforeach;?>
+            </div>
+        <?php endif; ?>
 
-            <?php foreach($platform as $tag_entry): ?>
-                <?php if(is_object($tag_entry)): ?>
-                    <span class="linked-genre" data-genre-id="<?=Helpers::esc($tag_entry->id)?>">
-                        <a href="<?=Helpers::esc($tag_entry->id)?>.html">
-                            <?=Helpers::esc($tag_entry->name)?>
-                        </a>
-                    </span>
-                <?php else : ?>
-                    <span class="unlinked-genre"><?=Helpers::esc($tag_entry);?></span>
-                <?php endif; ?>
-            <?php endforeach;?>
-        </div>
-    <?php endif; ?>
+        <?php if (!empty($platform)) : ?>
+            <div class="platform-list">
+                <?php foreach($platform as $tag_entry): ?>
+                    <?php if(is_object($tag_entry)): ?>
+                        <span class="linked-platform " data-platform-id="<?=Helpers::esc($tag_entry->id)?>">
+                            <a href="<?=Helpers::esc($tag_entry->id)?>.html">
+                                <?=Helpers::esc($tag_entry->name)?>
+                            </a>
+                        </span>
+                    <?php else : ?>
+                        <span class="unlinked-platform"><?=Helpers::esc($tag_entry);?></span>
+                    <?php endif; ?>
+                <?php endforeach;?>
+            </div>
+        <?php endif; ?>
+    </div>
 </div>

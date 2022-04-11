@@ -25,4 +25,12 @@ class Helpers {
     public static function esc($html) {
         return htmlspecialchars($html, ENT_QUOTES, 'utf-8');
     }
+
+    public static function projectTitle() {
+        return self::esc('Games where you can play as a cute little girl');
+    }
+
+    public static function renderGlobalNav() {
+        include 'template/globalnav.php';
+    }
 }

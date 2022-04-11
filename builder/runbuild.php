@@ -9,8 +9,8 @@ foreach ( $files as $file ) {
     $builder->addFile($file);
 }
 $builder->addInverseLinks('Platform', 'game', 'Game', 'platform');
-$builder->addInverseLinks('Platform', 'series', 'Series', 'platform');
-$builder->addInverseLinks('Genre', 'series', 'Series', 'genre');
+$builder->addInverseLinks('Platform', 'game', 'Series', 'platform');
+$builder->addInverseLinks('Genre', 'game', 'Series', 'genre');
 $builder->addInverseLinks('Series', 'game', 'Game', 'series');
 $builder->addInverseLinks('Genre', 'game', 'Game', 'genre');
 require_once "load_renderers.php";

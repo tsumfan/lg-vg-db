@@ -1,8 +1,0 @@
-{
-    "@type": "Game",
-    "@id": "game-ape-escape3",
-    "genre": [{"@id": "genre-3d-platformer"}],
-    "platform": [{"@id": "platform-ps2"}],
-    "name": "Ape Escape 3",
-    "image": "images/3.jpg"
-}

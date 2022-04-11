@@ -3,7 +3,7 @@
 Platform:
 * emulators: Thing
 * properties of Thing
-* series: Game or Series inverse of *.genre
+* game: Game or Series inverse of *.platform
 
 Genre:
 * properties of Thing

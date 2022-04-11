@@ -4,6 +4,11 @@
     "entry": [
         {
             "@type": "Platform",
+            "@id": "platform-3do",
+            "name": "3DO"
+        },
+        {
+            "@type": "Platform",
             "@id": "platform-3ds",
             "name": "Nintendo 3DS\/2DS",
             "description": "Second generation dual-screen handheld."
@@ -15,6 +20,16 @@
         },
         {
             "@type": "Platform",
+            "@id": "platform-amiga",
+            "name": "Amiga"
+        },
+        {
+            "@type": "Platform",
+            "@id": "platform-amstrad-cpc",
+            "name": "Amstrad CPC"
+        },
+        {
+            "@type": "Platform",
             "@id": "platform-android",
             "name": "Android"
         },
@@ -22,6 +37,21 @@
             "@type": "Platform",
             "@id": "platform-arcade",
             "name": "Arcade"
+        },
+        {
+            "@type": "Platform",
+            "@id": "platform-atari-st",
+            "name": "Atari ST"
+        },
+        {
+            "@type": "Platform",
+            "@id": "platform-commodore-64",
+            "name": "Commodore 64"
+        },
+        {
+            "@type": "Platform",
+            "@id": "platform-dos",
+            "name": "DOS"
         },
         {
             "@type": "Platform",
@@ -41,8 +71,18 @@
         },
         {
             "@type": "Platform",
+            "@id": "platform-fm-towns-marty",
+            "name": "FM Towns Marty"
+        },
+        {
+            "@type": "Platform",
             "@id": "platform-gameboy",
             "name": "Gameboy"
+        },
+        {
+            "@type": "Platform",
+            "@id": "platform-gameboy-color",
+            "name": "Gameboy Color"
         },
         {
             "@type": "Platform",
@@ -51,13 +91,48 @@
         },
         {
             "@type": "Platform",
+            "@id": "platform-ios",
+            "name": "iOS"
+        },
+        {
+            "@type": "Platform",
+            "@id": "platform-mac",
+            "name": "Mac"
+        },
+        {
+            "@type": "Platform",
             "@id": "platform-mobile",
             "name": "Mobile"
         },
         {
             "@type": "Platform",
+            "@id": "platform-msx",
+            "name": "MSX"
+        },
+        {
+            "@type": "Platform",
             "@id": "platform-msx2",
             "name": "MSX2"
+        },
+        {
+            "@type": "Platform",
+            "@id": "platform-n64",
+            "name": "N64"
+        },
+        {
+            "@type": "Platform",
+            "@id": "platform-nec-pc-9801",
+            "name": "NEC PC-9801"
+        },
+        {
+            "@type": "Platform",
+            "@id": "platform-neo-geo",
+            "name": "Neo Geo"
+        },
+        {
+            "@type": "Platform",
+            "@id": "platform-neo-geo-aes",
+            "name": "Neo Geo AES"
         },
         {
             "@type": "Platform",
@@ -78,8 +153,18 @@
         },
         {
             "@type": "Platform",
+            "@id": "platform-pc-98",
+            "name": "PC-98"
+        },
+        {
+            "@type": "Platform",
             "@id": "platform-pc-engine",
             "name": "PC Engine"
+        },
+        {
+            "@type": "Platform",
+            "@id": "platform-pc-fx",
+            "name": "PC-FX"
         },
         {
             "@type": "Platform",
@@ -94,8 +179,23 @@
         },
         {
             "@type": "Platform",
+            "@id": "platform-ps3",
+            "name": "PS3"
+        },
+        {
+            "@type": "Platform",
             "@id": "platform-ps4",
             "name": "PS4"
+        },
+        {
+            "@type": "Platform",
+            "@id": "platform-ps5",
+            "name": "PS5"
+        },
+        {
+            "@type": "Platform",
+            "@id": "platform-psn",
+            "name": "PSN"
         },
         {
             "@type": "Platform",
@@ -105,8 +205,23 @@
         },
         {
             "@type": "Platform",
+            "@id": "platform-sega-cd",
+            "name": "Sega CD"
+        },
+        {
+            "@type": "Platform",
+            "@id": "platform-sega-genesis",
+            "name": "Sega Genesis"
+        },
+        {
+            "@type": "Platform",
             "@id": "platform-sega-saturn",
             "name": "Sega Saturn"
+        },
+        {
+            "@type": "Platform",
+            "@id": "platform-sharp-x68000",
+            "name": "Sharp X68000"
         },
         {
             "@type": "Platform",
@@ -116,13 +231,38 @@
         },
         {
             "@type": "Platform",
+            "@id": "platform-snes-switch",
+            "name": "SNES, Switch"
+        },
+        {
+            "@type": "Platform",
+            "@id": "platform-stadia",
+            "name": "Stadia"
+        },
+        {
+            "@type": "Platform",
             "@id": "platform-switch",
             "name": "Switch"
         },
         {
             "@type": "Platform",
+            "@id": "platform-switch-pc",
+            "name": "Switch, PC"
+        },
+        {
+            "@type": "Platform",
             "@id": "platform-turbografx-16",
             "name": "TurboGrafx-16"
+        },
+        {
+            "@type": "Platform",
+            "@id": "platform-turbografx-16-mini",
+            "name": "TurboGrafx-16 Mini"
+        },
+        {
+            "@type": "Platform",
+            "@id": "platform-variety",
+            "name": "Variety"
         },
         {
             "@type": "Platform",
@@ -137,8 +277,28 @@
         },
         {
             "@type": "Platform",
+            "@id": "platform-wii-u",
+            "name": "Wii U"
+        },
+        {
+            "@type": "Platform",
+            "@id": "platform-wii-vc",
+            "name": "Wii VC"
+        },
+        {
+            "@type": "Platform",
+            "@id": "platform-wii-virtualconsole",
+            "name": "Wii VirtualConsole"
+        },
+        {
+            "@type": "Platform",
             "@id": "platform-wonder-swan",
             "name": "Wonder Swan"
+        },
+        {
+            "@type": "Platform",
+            "@id": "platform-x68000",
+            "name": "X68000"
         },
         {
             "@type": "Platform",
@@ -147,8 +307,33 @@
         },
         {
             "@type": "Platform",
+            "@id": "platform-xbox",
+            "name": "Xbox"
+        },
+        {
+            "@type": "Platform",
+            "@id": "platform-xbox-360",
+            "name": "XBox 360"
+        },
+        {
+            "@type": "Platform",
             "@id": "platform-xbox-one",
             "name": "XBox One"
+        },
+        {
+            "@type": "Platform",
+            "@id": "platform-xbox-series-s-x",
+            "name": "Xbox Series S\/X"
+        },
+        {
+            "@type": "Platform",
+            "@id": "platform-zeebo",
+            "name": "Zeebo"
+        },
+        {
+            "@type": "Platform",
+            "@id": "platform-zx-spectrum",
+            "name": "ZX Spectrum"
         }
     ]
 }

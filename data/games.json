@@ -384,6 +384,2115 @@
                 }
             ],
             "image": "images\/25.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-magical-chase",
+            "name": "Magical Chase",
+            "genre": [
+                {
+                    "@id": "genre-scrolling-shooter"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-pc-engine"
+                },
+                {
+                    "@id": "platform-turbografx-16"
+                },
+                {
+                    "@id": "platform-gameboy-color"
+                },
+                {
+                    "@id": "platform-pc"
+                }
+            ],
+            "image": "images\/26.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-atelier-totori-the-adventurer-of-arland",
+            "name": "Atelier Totori: The Adventurer of Arland",
+            "genre": [
+                {
+                    "@id": "genre-jrpg"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-ps3"
+                },
+                {
+                    "@id": "platform-vita"
+                },
+                {
+                    "@id": "platform-pc"
+                }
+            ],
+            "image": "images\/27.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-they-bleed-pixels",
+            "name": "They Bleed Pixels",
+            "genre": [
+                {
+                    "@id": "genre-action"
+                },
+                {
+                    "@id": "genre-platformer"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-pc"
+                }
+            ],
+            "image": "images\/28.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-trials-of-mana",
+            "name": "Trials of Mana",
+            "genre": [
+                {
+                    "@id": "genre-action-rpg"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-snes-switch"
+                }
+            ],
+            "image": "images\/29.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-trials-of-mana-remake",
+            "name": "Trials of Mana Remake",
+            "genre": [
+                {
+                    "@id": "genre-action-rpg"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-ps4"
+                },
+                {
+                    "@id": "platform-switch"
+                },
+                {
+                    "@id": "platform-ios"
+                },
+                {
+                    "@id": "platform-android"
+                },
+                {
+                    "@id": "platform-pc"
+                }
+            ],
+            "image": "images\/29.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-onirism",
+            "name": "Onirism",
+            "genre": [
+                {
+                    "@id": "genre-action"
+                },
+                {
+                    "@id": "genre-adventure"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-pc"
+                }
+            ],
+            "image": "images\/30.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-go-go-burunyanman",
+            "name": "Go Go Burunyanman",
+            "genre": [
+                {
+                    "@id": "genre-shoot-em-up"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-psp"
+                },
+                {
+                    "@id": "platform-pc"
+                }
+            ],
+            "image": "images\/31.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-little-nightmares",
+            "name": "Little Nightmares",
+            "genre": [
+                {
+                    "@id": "genre-puzzle-platformer"
+                },
+                {
+                    "@id": "genre-survival-horror"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-ps4"
+                },
+                {
+                    "@id": "platform-xbox-one"
+                },
+                {
+                    "@id": "platform-switch"
+                },
+                {
+                    "@id": "platform-stadia"
+                },
+                {
+                    "@id": "platform-pc"
+                }
+            ],
+            "image": "images\/32.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-fushigi-na-mori-no-pokora",
+            "name": "Fushigi na Mori no Pokora",
+            "genre": [
+                {
+                    "@id": "genre-dressing"
+                },
+                {
+                    "@id": "genre-catching"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-pc"
+                }
+            ],
+            "image": "images\/33.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-lethal-application",
+            "name": "Lethal Application",
+            "genre": [
+                {
+                    "@id": "genre-shooter"
+                },
+                {
+                    "@id": "genre-run-n-gun"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-pc"
+                }
+            ],
+            "image": "images\/34.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-witch-s-wish",
+            "name": "Witch's Wish",
+            "genre": [
+                {
+                    "@id": "genre-adventure"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-ds"
+                }
+            ],
+            "image": "images\/35.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-htol-niq-the-firefly-diary",
+            "name": "htoL#NiQ: The Firefly Diary",
+            "genre": [
+                {
+                    "@id": "genre-adventure"
+                },
+                {
+                    "@id": "genre-puzzle-platformer"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-pc"
+                },
+                {
+                    "@id": "platform-vita"
+                }
+            ],
+            "image": "images\/36.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-drill-dozer",
+            "name": "Drill Dozer",
+            "genre": [
+                {
+                    "@id": "genre-action"
+                },
+                {
+                    "@id": "genre-platformer"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-gba"
+                }
+            ],
+            "image": "images\/37.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-deathsmiles",
+            "name": "Deathsmiles",
+            "genre": [
+                {
+                    "@id": "genre-shooter"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-arcade"
+                },
+                {
+                    "@id": "platform-xbox-360"
+                },
+                {
+                    "@id": "platform-ios"
+                },
+                {
+                    "@id": "platform-android"
+                },
+                {
+                    "@id": "platform-pc"
+                }
+            ],
+            "image": "images\/38.jpg"
+        },
+        {
+            "@type": "Series",
+            "@id": "series-madou-monogatari",
+            "name": "Madou Monogatari Series",
+            "platform": "Various",
+            "genre": [{"@id": "genre-dungeon-crawler"}, {"@id": "genre-rpg"}],
+            "image": "images/2.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-yomawari-night-alone",
+            "genre": [{"@id": "genre-survival-horror"}],
+            "platform": [
+                {"@id": "platform-vita"},
+                {"@id": "platform-pc"}
+            ],
+            "name": "Yomawari: Night Alone",
+            "image": "images/8.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-ghostly-groove",
+            "genre": [{"@id": "genre-rhythm"}],
+            "platform": [
+                {"@id": "platform-3ds"}
+            ],
+            "name": "Gabrielle's Ghostly Groove",
+            "image": "images/5.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-umihara",
+            "genre": [{"@id": "genre-platformer"}],
+            "platform": [
+                {"@id": "platform-3ds"},
+                {"@id": "platform-vita"},
+                {"@id": "platform-pc"}
+            ],
+            "name": "Sayonara Umihara Kawase",
+            "image": "images/4.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-panel-de-pon",
+            "genre": [{"@id": "genre-puzzle"}],
+            "platform": [
+                {"@id": "platform-snes"}
+            ],
+            "name": "Panel de Pon",
+            "image": "images/7.jpg"
+        },
+        {
+            "@type": "Game",
+            "name": "Fortune Summoners",
+            "id": "game-fortune-summoners",
+            "platform": { "@id": "platform-pc" },
+            "genre": [{ "@id": "genre-action-rpg" }, { "@id": "genre-metroidvania" }, { "@id": "genre-dungeon-crawler" }],
+            "image": "images/1.jpg"
+        },
+        {
+            "@type": "Game",
+            "name": "Coropata",
+            "@id": "coropata",
+            "platform": [{ "@id": "platform-pc" }, { "@id": "platform-ds"}],
+            "genre": [{"@id": "genre-puzzle"}],
+            "image": "images/18.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-ape-escape3",
+            "genre": [{"@id": "genre-3d-platformer"}],
+            "platform": [{"@id": "platform-ps2"}],
+            "name": "Ape Escape 3",
+            "image": "images/3.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-7th-dragon",
+            "genre": [{"@id": "genre-rpg"}],
+            "platform": [
+                {"@id": "platform-ds"}
+            ],
+            "name": "7th Dragon",
+            "image": "images/6.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-tako-no-marine",
+            "name": "Tako no Marine",
+            "genre": [
+                {
+                    "@id": "genre-puzzle"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-dreamcast"
+                }
+            ],
+            "image": "images\/39.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-starchaser-priestess-of-the-night-sky",
+            "name": "Starchaser: Priestess of the Night Sky",
+            "genre": [
+                {
+                    "@id": "genre-action"
+                },
+                {
+                    "@id": "genre-3d-platformer"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-pc"
+                }
+            ],
+            "image": "images\/40.jpg"
+        },
+        {
+            "@type": "Series",
+            "@id": "game-yo-kai-watch-series",
+            "name": "Yo-Kai Watch Series",
+            "genre": [
+                {
+                    "@id": "genre-rpg"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-3ds"
+                }
+            ],
+            "image": "images\/41.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-magical-drop-3",
+            "name": "Magical Drop 3",
+            "genre": [
+                {
+                    "@id": "genre-puzzle"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-neo-geo"
+                },
+                {
+                    "@id": "platform-sega-saturn"
+                },
+                {
+                    "@id": "platform-ps1"
+                },
+                {
+                    "@id": "platform-ps3"
+                },
+                {
+                    "@id": "platform-wii"
+                },
+                {
+                    "@id": "platform-zeebo"
+                },
+                {
+                    "@id": "platform-pc"
+                }
+            ],
+            "image": "images\/42.jpg"
+        },
+        {
+            "@type": "Series",
+            "@id": "game-pokemon-series",
+            "name": "Pokemon Series",
+            "genre": [
+                {
+                    "@id": "genre-rpg"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-gameboy"
+                },
+                {
+                    "@id": "platform-gameboy-color"
+                },
+                {
+                    "@id": "platform-ds"
+                },
+                {
+                    "@id": "platform-3ds"
+                },
+                {
+                    "@id": "platform-switch"
+                },
+                {
+                    "@id": "platform-n64"
+                }
+            ],
+            "image": "images\/43.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-yume-nikki",
+            "name": "Yume Nikki",
+            "genre": [
+                {
+                    "@id": "genre-adventure"
+                },
+                {
+                    "@id": "genre-rpgmaker"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-pc"
+                }
+            ],
+            "image": "images\/44.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-mystik-belle",
+            "name": "Mystik Belle",
+            "genre": [
+                {
+                    "@id": "genre-action"
+                },
+                {
+                    "@id": "genre-adventure"
+                },
+                {
+                    "@id": "genre-rpg"
+                },
+                {
+                    "@id": "genre-metroidvania"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-ps4"
+                },
+                {
+                    "@id": "platform-xbox-one"
+                },
+                {
+                    "@id": "platform-pc"
+                }
+            ],
+            "image": "images\/45.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-reverse-x-reverse",
+            "name": "Reverse x Reverse",
+            "genre": [
+                {
+                    "@id": "genre-action"
+                },
+                {
+                    "@id": "genre-puzzle-platformer"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-pc"
+                }
+            ],
+            "image": "images\/46.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-gokinjo-boukentai",
+            "name": "Gokinjo Boukentai",
+            "genre": [
+                {
+                    "@id": "genre-jrpg"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-snes"
+                }
+            ],
+            "image": "images\/47.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-rod-land",
+            "name": "Rod Land",
+            "genre": [
+                {
+                    "@id": "genre-platformer"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-arcade"
+                },
+                {
+                    "@id": "platform-amiga"
+                },
+                {
+                    "@id": "platform-amstrad-cpc"
+                },
+                {
+                    "@id": "platform-atari-st"
+                },
+                {
+                    "@id": "platform-commodore-64"
+                },
+                {
+                    "@id": "platform-zx-spectrum"
+                },
+                {
+                    "@id": "platform-ps4"
+                },
+                {
+                    "@id": "platform-nes"
+                },
+                {
+                    "@id": "platform-gameboy"
+                },
+                {
+                    "@id": "platform-switch"
+                },
+                {
+                    "@id": "platform-ios"
+                }
+            ],
+            "image": "images\/48.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-magical-pop-n",
+            "name": "Magical Pop'n",
+            "genre": [
+                {
+                    "@id": "genre-platformer"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-snes"
+                }
+            ],
+            "image": "images\/49.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-recettear-an-item-shop-s-tale",
+            "name": "Recettear: An Item Shop's Tale",
+            "genre": [
+                {
+                    "@id": "genre-action-rpg"
+                },
+                {
+                    "@id": "genre-business-simulation"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-pc"
+                }
+            ],
+            "image": "images\/50.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-twinkle-star-sprites",
+            "name": "Twinkle Star Sprites",
+            "genre": [
+                {
+                    "@id": "genre-shoot-em-up"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-arcade"
+                },
+                {
+                    "@id": "platform-neo-geo-aes"
+                },
+                {
+                    "@id": "platform-sega-saturn"
+                },
+                {
+                    "@id": "platform-dreamcast"
+                },
+                {
+                    "@id": "platform-ps2"
+                },
+                {
+                    "@id": "platform-wii-virtualconsole"
+                },
+                {
+                    "@id": "platform-psn"
+                },
+                {
+                    "@id": "platform-pc"
+                }
+            ],
+            "image": "images\/51.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-gurumin-a-monstrous-adventure",
+            "name": "Gurumin: A Monstrous Adventure",
+            "genre": [
+                {
+                    "@id": "genre-action-rpg"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-psp"
+                },
+                {
+                    "@id": "platform-3ds"
+                },
+                {
+                    "@id": "platform-pc"
+                }
+            ],
+            "image": "images\/52.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-survival-kids",
+            "name": "Survival Kids",
+            "genre": [
+                {
+                    "@id": "genre-survival"
+                },
+                {
+                    "@id": "genre-rpg"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-gameboy-color"
+                }
+            ],
+            "image": "images\/53.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-hitogata-happa",
+            "name": "Hitogata Happa",
+            "genre": [
+                {
+                    "@id": "genre-shoot-em-up"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-ps3"
+                },
+                {
+                    "@id": "platform-pc"
+                }
+            ],
+            "image": "images\/54.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-keio-flying-squadron",
+            "name": "Keio Flying Squadron",
+            "genre": [
+                {
+                    "@id": "genre-scrolling-shooter"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-sega-cd"
+                }
+            ],
+            "image": "images\/55.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-bunny-must-die-chelsea-and-the-7-devils",
+            "name": "Bunny Must Die: Chelsea and the 7 Devils",
+            "genre": [
+                {
+                    "@id": "genre-platformer"
+                },
+                {
+                    "@id": "genre-action"
+                },
+                {
+                    "@id": "genre-metroidvania"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-pc"
+                }
+            ],
+            "image": "images\/56.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-touch-detective-1",
+            "name": "Touch Detective 1",
+            "genre": [
+                {
+                    "@id": "genre-adventure"
+                },
+                {
+                    "@id": "genre-point-click"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-ds"
+                },
+                {
+                    "@id": "platform-android"
+                },
+                {
+                    "@id": "platform-ios"
+                }
+            ],
+            "image": "images\/57.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-touch-detective-2",
+            "name": "Touch Detective 2",
+            "genre": [
+                {
+                    "@id": "genre-adventure"
+                },
+                {
+                    "@id": "genre-point-click"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-ds"
+                }
+            ],
+            "image": "images\/57.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-touch-detective-3",
+            "name": "Touch Detective 3",
+            "genre": [
+                {
+                    "@id": "genre-adventure"
+                },
+                {
+                    "@id": "genre-point-click"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-3ds"
+                }
+            ],
+            "image": "images\/57.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-bishoujo-senshi-sailor-moon-r",
+            "name": "Bishoujo Senshi Sailor Moon R",
+            "genre": [
+                {
+                    "@id": "genre-beat-em-up"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-snes"
+                }
+            ],
+            "image": "images\/58.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-penny-punching-princess",
+            "name": "Penny Punching Princess",
+            "genre": [
+                {
+                    "@id": "genre-isometric-brawler"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-vita"
+                },
+                {
+                    "@id": "platform-switch"
+                }
+            ],
+            "image": "images\/59.jpg"
+        },
+        {
+            "@type": "Series",
+            "@id": "game-touhou-project-series",
+            "name": "Touhou Project Series",
+            "genre": [
+                {
+                    "@id": "genre-shoot-em-up"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-pc-98"
+                },
+                {
+                    "@id": "platform-pc"
+                },
+                {
+                    "@id": "platform-ps4"
+                },
+                {
+                    "@id": "platform-vita"
+                }
+            ],
+            "image": "images\/60.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-one-way-heroics-plus",
+            "name": "One Way Heroics Plus",
+            "genre": [
+                {
+                    "@id": "genre-jrpg"
+                },
+                {
+                    "@id": "genre-rogue-like"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-switch-pc"
+                }
+            ],
+            "image": "images\/61.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-one-way-heroics-mystery-chronicles",
+            "name": "One Way Heroics - Mystery Chronicles",
+            "genre": [
+                {
+                    "@id": "genre-jrpg"
+                },
+                {
+                    "@id": "genre-rogue-like"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-vita"
+                },
+                {
+                    "@id": "platform-ps4"
+                },
+                {
+                    "@id": "platform-pc"
+                }
+            ],
+            "image": "images\/61.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-little-witch-nobeta",
+            "name": "Little Witch Nobeta",
+            "genre": [
+                {
+                    "@id": "genre-action"
+                },
+                {
+                    "@id": "genre-souls-like"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-pc"
+                }
+            ],
+            "image": "images\/62.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-pocket-mirror",
+            "name": "Pocket Mirror",
+            "genre": [
+                {
+                    "@id": "genre-rpgmaker"
+                },
+                {
+                    "@id": "genre-adventure"
+                },
+                {
+                    "@id": "genre-horror"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-pc"
+                }
+            ],
+            "image": "images\/63.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-lieat",
+            "name": "LiEat",
+            "genre": [
+                {
+                    "@id": "genre-jrpg"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-pc"
+                }
+            ],
+            "image": "images\/64.jpg"
+        },
+        {
+            "@type": "Series",
+            "@id": "game-splatoon-series",
+            "name": "Splatoon Series",
+            "genre": [
+                {
+                    "@id": "genre-tps"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-wii-u"
+                },
+                {
+                    "@id": "platform-switch"
+                }
+            ],
+            "image": "images\/65.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-mad-father",
+            "name": "Mad Father",
+            "genre": [
+                {
+                    "@id": "genre-rpgmaker"
+                },
+                {
+                    "@id": "genre-puzzle"
+                },
+                {
+                    "@id": "genre-survival-horror"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-pc"
+                }
+            ],
+            "image": "images\/66.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-ib",
+            "name": "Ib",
+            "genre": [
+                {
+                    "@id": "genre-rpgmaker"
+                },
+                {
+                    "@id": "genre-adventure"
+                },
+                {
+                    "@id": "genre-horror"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-pc"
+                }
+            ],
+            "image": "images\/67.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-grimgrimoire",
+            "name": "GrimGrimoire",
+            "genre": [
+                {
+                    "@id": "genre-rts"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-ps2"
+                },
+                {
+                    "@id": "platform-ps3"
+                }
+            ],
+            "image": "images\/68.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-kumatanchi",
+            "name": "Kumatanchi",
+            "genre": [
+                {
+                    "@id": "genre-life-simulation"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-ds"
+                }
+            ],
+            "image": "images\/69.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-tenerezza",
+            "name": "Tenerezza",
+            "genre": [
+                {
+                    "@id": "genre-action-rpg"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-xbox"
+                },
+                {
+                    "@id": "platform-pc"
+                }
+            ],
+            "image": "images\/70.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-keio-flying-squadron-2",
+            "name": "Keio Flying Squadron 2",
+            "genre": [
+                {
+                    "@id": "genre-platformer"
+                },
+                {
+                    "@id": "genre-scrolling-shooter"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-sega-saturn"
+                }
+            ],
+            "image": "images\/71.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-silhouette-mirage",
+            "name": "Silhouette Mirage",
+            "genre": [
+                {
+                    "@id": "genre-action"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-sega-saturn"
+                },
+                {
+                    "@id": "platform-ps1"
+                }
+            ],
+            "image": "images\/72.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-chip-chan-kick-",
+            "name": "Chip-chan Kick!",
+            "genre": [
+                {
+                    "@id": "genre-action"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-pc-fx"
+                }
+            ],
+            "image": "images\/73.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-mega-man-powered-up",
+            "name": "Mega Man Powered Up",
+            "genre": [
+                {
+                    "@id": "genre-platformer"
+                },
+                {
+                    "@id": "genre-action"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-psp"
+                }
+            ],
+            "image": "images\/74.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-child-of-light",
+            "name": "Child of Light",
+            "genre": [
+                {
+                    "@id": "genre-platformer"
+                },
+                {
+                    "@id": "genre-rpg"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-ps3"
+                },
+                {
+                    "@id": "platform-vita"
+                },
+                {
+                    "@id": "platform-ps4"
+                },
+                {
+                    "@id": "platform-xbox-360"
+                },
+                {
+                    "@id": "platform-xbox-one"
+                },
+                {
+                    "@id": "platform-wii-u"
+                },
+                {
+                    "@id": "platform-pc"
+                }
+            ],
+            "image": "images\/75.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-giraffe-and-annika",
+            "name": "Giraffe and Annika",
+            "genre": [
+                {
+                    "@id": "genre-action"
+                },
+                {
+                    "@id": "genre-adventure"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-ps4"
+                },
+                {
+                    "@id": "platform-xbox-one"
+                },
+                {
+                    "@id": "platform-switch"
+                },
+                {
+                    "@id": "platform-pc"
+                }
+            ],
+            "image": "images\/78.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-m-rchen-maze",
+            "name": "M\u00e4rchen Maze",
+            "genre": [
+                {
+                    "@id": "genre-action"
+                },
+                {
+                    "@id": "genre-isometric-platformer"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-arcade"
+                },
+                {
+                    "@id": "platform-pc-engine"
+                },
+                {
+                    "@id": "platform-sharp-x68000"
+                },
+                {
+                    "@id": "platform-wii-vc"
+                }
+            ],
+            "image": "images\/79.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-little-misfortune",
+            "name": "Little Misfortune",
+            "genre": [
+                {
+                    "@id": "genre-adventure"
+                },
+                {
+                    "@id": "genre-horror"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-switch"
+                },
+                {
+                    "@id": "platform-android"
+                },
+                {
+                    "@id": "platform-ios"
+                },
+                {
+                    "@id": "platform-pc"
+                }
+            ],
+            "image": "images\/80.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-100-orange-juice",
+            "name": "100% Orange Juice",
+            "genre": [
+                {
+                    "@id": "genre-board-game"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-pc"
+                }
+            ],
+            "image": "images\/81.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-dragon-quest-monsters-2-tara-s-adventure",
+            "name": "Dragon Quest Monsters 2: Tara's Adventure",
+            "genre": [
+                {
+                    "@id": "genre-rpg"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-gameboy-color"
+                },
+                {
+                    "@id": "platform-ps1"
+                },
+                {
+                    "@id": "platform-3ds"
+                }
+            ],
+            "image": "images\/82.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-wadanohara-and-the-great-blue-sea",
+            "name": "Wadanohara and the Great Blue Sea",
+            "genre": [
+                {
+                    "@id": "genre-adventure"
+                },
+                {
+                    "@id": "genre-rpg"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-pc"
+                }
+            ],
+            "image": "images\/83.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-monster-tale",
+            "name": "Monster Tale",
+            "genre": [
+                {
+                    "@id": "genre-life-simulation"
+                },
+                {
+                    "@id": "genre-adventure"
+                },
+                {
+                    "@id": "genre-action"
+                },
+                {
+                    "@id": "genre-metroidvania"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-ds"
+                }
+            ],
+            "image": "images\/84.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-monster-world-iv",
+            "name": "Monster World IV",
+            "genre": [
+                {
+                    "@id": "genre-platformer"
+                },
+                {
+                    "@id": "genre-metroidvania"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-sega-genesis"
+                },
+                {
+                    "@id": "platform-ps2"
+                },
+                {
+                    "@id": "platform-ps3"
+                },
+                {
+                    "@id": "platform-xbox-360"
+                },
+                {
+                    "@id": "platform-wii"
+                }
+            ],
+            "image": "images\/85.jpg"
+        },
+        {
+            "@type": "Series",
+            "@id": "game-puyo-puyo-series",
+            "name": "Puyo Puyo Series",
+            "genre": [
+                {
+                    "@id": "genre-puzzle"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-variety"
+                }
+            ],
+            "image": "images\/86.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-summon-night-swordcraft-story",
+            "name": "Summon Night: Swordcraft Story",
+            "genre": [
+                {
+                    "@id": "genre-action-rpg"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-gba"
+                }
+            ],
+            "image": "images\/87.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-little-magic",
+            "name": "Little Magic",
+            "genre": [
+                {
+                    "@id": "genre-puzzle"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-snes"
+                },
+                {
+                    "@id": "platform-gameboy-color"
+                }
+            ],
+            "image": "images\/88.jpg"
+        },
+        {
+            "@type": "Series",
+            "@id": "game-hyperdimension-neptunia-series",
+            "name": "Hyperdimension Neptunia Series",
+            "genre": [
+                {
+                    "@id": "genre-rpg"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-ps3"
+                },
+                {
+                    "@id": "platform-ps4"
+                },
+                {
+                    "@id": "platform-vita"
+                },
+                {
+                    "@id": "platform-pc"
+                }
+            ],
+            "image": "images\/89.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-mega-man-rock-n-roll",
+            "name": "Mega Man: Rock N Roll",
+            "genre": [
+                {
+                    "@id": "genre-platformer"
+                },
+                {
+                    "@id": "genre-action"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-pc"
+                }
+            ],
+            "image": "images\/90.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-chronicles-of-teddy-harmony-of-exidus",
+            "name": "Chronicles of Teddy: Harmony of Exidus",
+            "genre": [
+                {
+                    "@id": "genre-action"
+                },
+                {
+                    "@id": "genre-adventure"
+                },
+                {
+                    "@id": "genre-metroidvania"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-pc"
+                },
+                {
+                    "@id": "platform-ps4"
+                },
+                {
+                    "@id": "platform-wii-u"
+                }
+            ],
+            "image": "images\/91.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-fran-bow",
+            "name": "Fran Bow",
+            "genre": [
+                {
+                    "@id": "genre-adventure"
+                },
+                {
+                    "@id": "genre-horror"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-pc"
+                },
+                {
+                    "@id": "platform-ios"
+                },
+                {
+                    "@id": "platform-android"
+                }
+            ],
+            "image": "images\/92.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-the-witch-s-house",
+            "name": "The Witch's House",
+            "genre": [
+                {
+                    "@id": "genre-rpgmaker"
+                },
+                {
+                    "@id": "genre-puzzle"
+                },
+                {
+                    "@id": "genre-survival-horror"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-pc"
+                }
+            ],
+            "image": "images\/93.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-chantelise-a-tale-of-two-sisters",
+            "name": "Chantelise - A Tale of Two Sisters",
+            "genre": [
+                {
+                    "@id": "genre-action-rpg"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-pc"
+                }
+            ],
+            "image": "images\/94.jpg"
+        },
+        {
+            "@type": "Series",
+            "@id": "game-towelket-one-more-time-series",
+            "name": "Towelket: One More Time Series",
+            "genre": [
+                {
+                    "@id": "genre-rpgmaker"
+                },
+                {
+                    "@id": "genre-adventure"
+                },
+                {
+                    "@id": "genre-jrpg"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-pc"
+                }
+            ],
+            "image": "images\/95.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-princess-crown",
+            "name": "Princess Crown",
+            "genre": [
+                {
+                    "@id": "genre-action-rpg"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-sega-saturn"
+                },
+                {
+                    "@id": "platform-psp"
+                },
+                {
+                    "@id": "platform-ps4"
+                }
+            ],
+            "image": "images\/96.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-sakuna-of-rice-and-ruin",
+            "name": "Sakuna: Of Rice and Ruin",
+            "genre": [
+                {
+                    "@id": "genre-action-rpg"
+                },
+                {
+                    "@id": "genre-simulation"
+                },
+                {
+                    "@id": "genre-platformer"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-ps4"
+                },
+                {
+                    "@id": "platform-switch"
+                },
+                {
+                    "@id": "platform-pc"
+                }
+            ],
+            "image": "images\/97.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-metallic-child",
+            "name": "METALLIC CHILD",
+            "genre": [
+                {
+                    "@id": "genre-rogue-lite"
+                },
+                {
+                    "@id": "genre-action"
+                },
+                {
+                    "@id": "genre-hack-and-slash"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-pc"
+                }
+            ],
+            "image": "images\/98.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-ender-lilies-quietus-of-the-knights",
+            "name": "Ender Lilies: Quietus of the Knights",
+            "genre": [
+                {
+                    "@id": "genre-action-rpg"
+                },
+                {
+                    "@id": "genre-metroidvania"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-xbox-one"
+                },
+                {
+                    "@id": "platform-xbox-series-s-x"
+                },
+                {
+                    "@id": "platform-ps4"
+                },
+                {
+                    "@id": "platform-switch"
+                },
+                {
+                    "@id": "platform-pc"
+                }
+            ],
+            "image": "images\/99.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-rupupu-cube-lup-salad",
+            "name": "Rupupu Cube: Lup Salad",
+            "genre": [
+                {
+                    "@id": "genre-puzzle"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-ps1"
+                },
+                {
+                    "@id": "platform-ds"
+                }
+            ],
+            "image": "images\/100.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-community-pom",
+            "name": "Community Pom",
+            "genre": [
+                {
+                    "@id": "genre-action-rpg"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-ps1"
+                }
+            ],
+            "image": "images\/101.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-genshin-impact",
+            "name": "Genshin Impact",
+            "genre": [
+                {
+                    "@id": "genre-action-rpg"
+                },
+                {
+                    "@id": "genre-adventure"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-ps4"
+                },
+                {
+                    "@id": "platform-ps5"
+                },
+                {
+                    "@id": "platform-switch"
+                },
+                {
+                    "@id": "platform-ios"
+                },
+                {
+                    "@id": "platform-android"
+                },
+                {
+                    "@id": "platform-pc"
+                }
+            ],
+            "image": "images\/102.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-moco-moco-friends",
+            "name": "Moco Moco Friends",
+            "genre": [
+                {
+                    "@id": "genre-rpg"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-3ds"
+                }
+            ],
+            "image": "images\/103.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-the-liar-princess-and-the-blind-prince",
+            "name": "The Liar Princess and the Blind Prince",
+            "genre": [
+                {
+                    "@id": "genre-adventure"
+                },
+                {
+                    "@id": "genre-puzzle-platformer"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-ps4"
+                },
+                {
+                    "@id": "platform-vita"
+                },
+                {
+                    "@id": "platform-switch"
+                },
+                {
+                    "@id": "platform-android"
+                }
+            ],
+            "image": "images\/104.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-the-cruel-king-and-the-great-hero",
+            "name": "The Cruel King and the Great Hero",
+            "genre": [
+                {
+                    "@id": "genre-jrpg"
+                },
+                {
+                    "@id": "genre-adventure"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-ps4"
+                },
+                {
+                    "@id": "platform-switch"
+                }
+            ],
+            "image": "images\/105.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-m-rchen-forest",
+            "name": "M\u00e4rchen Forest",
+            "genre": [
+                {
+                    "@id": "genre-rpg"
+                },
+                {
+                    "@id": "genre-dungeon-crawler"
+                },
+                {
+                    "@id": "genre-adventure"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-ps4"
+                },
+                {
+                    "@id": "platform-switch"
+                },
+                {
+                    "@id": "platform-pc"
+                }
+            ],
+            "image": "images\/106.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-princess-maker-series",
+            "name": "Princess Maker Series",
+            "genre": [
+                {
+                    "@id": "genre-life-simulation"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-nec-pc-9801"
+                },
+                {
+                    "@id": "platform-msx2"
+                },
+                {
+                    "@id": "platform-dos"
+                },
+                {
+                    "@id": "platform-fm-towns-marty"
+                },
+                {
+                    "@id": "platform-pc-engine"
+                },
+                {
+                    "@id": "platform-sega-saturn"
+                },
+                {
+                    "@id": "platform-3do"
+                },
+                {
+                    "@id": "platform-sharp-x68000"
+                },
+                {
+                    "@id": "platform-dreamcast"
+                },
+                {
+                    "@id": "platform-ps1"
+                },
+                {
+                    "@id": "platform-ps2"
+                },
+                {
+                    "@id": "platform-psp"
+                },
+                {
+                    "@id": "platform-pc"
+                },
+                {
+                    "@id": "platform-mac"
+                },
+                {
+                    "@id": "platform-android"
+                },
+                {
+                    "@id": "platform-ios"
+                }
+            ],
+            "image": "images\/107.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-castlevania-rondo-of-blood",
+            "name": "Castlevania: Rondo of Blood",
+            "genre": [
+                {
+                    "@id": "genre-action"
+                },
+                {
+                    "@id": "genre-adventure"
+                },
+                {
+                    "@id": "genre-platformer"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-turbografx-16"
+                },
+                {
+                    "@id": "platform-ps4"
+                },
+                {
+                    "@id": "platform-psp"
+                },
+                {
+                    "@id": "platform-wii-vc"
+                },
+                {
+                    "@id": "platform-turbografx-16-mini"
+                }
+            ],
+            "image": "images\/108.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-warioware-get-it-together-",
+            "name": "WarioWare: Get It Together!",
+            "genre": [
+                {
+                    "@id": "genre-action"
+                },
+                {
+                    "@id": "genre-party"
+                },
+                {
+                    "@id": "genre-mini-games"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-switch"
+                }
+            ],
+            "image": "images\/109.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-twinkle-tale",
+            "name": "Twinkle Tale",
+            "genre": [
+                {
+                    "@id": "genre-run-gun"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-sega-genesis"
+                }
+            ],
+            "image": "images\/110.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-esp-ra-de-",
+            "name": "ESP Ra.De.",
+            "genre": [
+                {
+                    "@id": "genre-shoot-em-up"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-arcade"
+                },
+                {
+                    "@id": "platform-ps4"
+                },
+                {
+                    "@id": "platform-switch"
+                }
+            ],
+            "image": "images\/111.jpg"
+        },
+        {
+            "@type": "Game",
+            "@id": "game-the-fairyland-story",
+            "name": "The Fairyland Story",
+            "genre": [
+                {
+                    "@id": "genre-platformer"
+                }
+            ],
+            "platform": [
+                {
+                    "@id": "platform-arcade"
+                },
+                {
+                    "@id": "platform-msx"
+                },
+                {
+                    "@id": "platform-x68000"
+                },
+                {
+                    "@id": "platform-ps4"
+                },
+                {
+                    "@id": "platform-switch"
+                }
+            ],
+            "image": "images\/112.jpg"
         }
     ]
 }

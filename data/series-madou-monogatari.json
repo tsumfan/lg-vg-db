@@ -1,8 +1,0 @@
-{
-    "@type": "Series",
-    "@id": "series-madou-monogatari",
-    "name": "Madou Monogatari Series",
-    "platform": "Various",
-    "genre": [{"@id": "genre-dungeon-crawler"}, {"@id": "genre-rpg"}],
-    "image": "images/2.jpg"
-}

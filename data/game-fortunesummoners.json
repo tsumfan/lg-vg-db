@@ -1,7 +1,0 @@
-{
-    "@type": "Game",
-    "name": "Fortune Summoners",
-    "platform": { "@id": "platform-pc" },
-    "genre": [{ "@id": "genre-action-rpg" }, { "@id": "genre-metroidvania" }, { "@id": "genre-dungeon-crawler" }],
-    "image": "images/1.jpg"
-}

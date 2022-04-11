@@ -31,6 +31,7 @@ abstract class CategoryIndexRenderer implements Renderer {
         foreach ( $this->graphlist as $node ) {
             $filename = $this->getOutputLocation( $node->id . '.html' );
             $entries = array_merge( $node->getPropertyArray('game', 'Game'), $node->getPropertyArray('series', 'Series') );
+            usort($entries, ['GraphRenderer\Helpers', 'sortByGraphName']);
             ob_start();
             include 'template/index.php';
             file_put_contents($filename, ob_get_clean());
