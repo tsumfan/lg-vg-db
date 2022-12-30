@@ -1,0 +1,5 @@
+---
+title: Wii
+slug: wii
+---
+

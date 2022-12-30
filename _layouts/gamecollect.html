@@ -1,0 +1,7 @@
+---
+layout: default
+---
+{% for game in site.games %}
+  {% assign selected = game %}
+  {%- include game-block.html -%}
+{% endfor %}

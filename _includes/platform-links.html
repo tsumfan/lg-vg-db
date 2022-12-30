@@ -1,0 +1,12 @@
+{% for platform in selected.platforms %}
+{% assign by_slug = site.platforms|find:"slug",platform %}
+{% assign by_title = site.platforms|find:"title",platform %}
+
+{% if by_slug %}
+  <a href="{{ by_slug.url | relative_url }}">{{ by_slug.title }}</a>
+{% elsif by_title %}
+  <a href="{{ by_title.url | relative_url }}">{{ by_title.title }}</a>
+{% else %}
+  <span class="unlinked-platform">{{platform}}</span>
+{% endif %}
+{% endfor %}

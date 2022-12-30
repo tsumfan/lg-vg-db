@@ -1,0 +1,10 @@
+---
+layout: default
+---
+{% for platform in site.platforms %}
+  <h2>
+    <a href="{{ platform.url | relative_url }}">
+      {{ platform.title }}
+    </a>
+  </h2>
+{% endfor %}

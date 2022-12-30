@@ -1,0 +1,5 @@
+---
+title: Variety
+slug: variety
+---
+

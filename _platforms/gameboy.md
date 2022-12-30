@@ -1,0 +1,5 @@
+---
+title: Gameboy
+slug: gameboy
+---
+

@@ -1,0 +1,5 @@
+---
+title: Adventure
+slug: adventure
+---
+

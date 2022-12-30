@@ -1,0 +1,5 @@
+---
+title: Dreamcast
+slug: dreamcast
+---
+

@@ -1,0 +1,5 @@
+---
+title: Shooter
+slug: shooter
+---
+

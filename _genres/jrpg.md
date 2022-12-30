@@ -1,0 +1,5 @@
+---
+title: JRPG
+slug: jrpg
+---
+

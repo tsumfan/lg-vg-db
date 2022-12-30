@@ -1,0 +1,12 @@
+{% for genre in selected.genres %}
+{% assign by_slug = site.genres|find:"slug",genre %}
+{% assign by_title = site.genres|find:"title",genre %}
+
+{% if by_slug %}
+  <a href="{{ by_slug.url | relative_url }}">{{ by_slug.title }}</a>
+{% elsif by_title %}
+  <a href="{{ by_title.url | relative_url }}">{{ by_title.title }}</a>
+{% else %}
+  {{platform}}
+{% endif %}
+{% endfor %}

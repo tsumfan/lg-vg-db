@@ -1,0 +1,10 @@
+---
+layout: default
+---
+{% for genre in site.genres %}
+  <h2>
+    <a href="{{ genre.url | relative_url }}">
+      {{ genre.title }}
+    </a>
+  </h2>
+{% endfor %}

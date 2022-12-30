@@ -1,0 +1,5 @@
+---
+title: Metroidvania
+slug: metroidvania
+---
+

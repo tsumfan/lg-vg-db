@@ -1,0 +1,5 @@
+---
+title: Amiga
+slug: amiga
+---
+

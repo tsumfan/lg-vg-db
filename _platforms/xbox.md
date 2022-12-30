@@ -1,0 +1,5 @@
+---
+title: Xbox
+slug: xbox
+---
+

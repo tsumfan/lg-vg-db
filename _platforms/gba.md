@@ -1,0 +1,5 @@
+---
+title: GBA
+slug: gba
+---
+

@@ -1,0 +1,18 @@
+<div class="index-entry">
+  {% if selected.image %}
+    <img src="{{ selected.image | relative_url }}" alt="Thumbnail for {{ selected.title }}">
+  {% endif %}
+  <div class="entry-meta">
+  <h2>{{selected.title}}</h2>
+    <div class="genre-list">
+      {%- include genre-links.html -%}
+    </div>
+    <div class="platform-list">
+      {%- include platform-links.html -%}
+    </div>
+    {% assign numwords = selected.content | number_of_words %}
+    {% if numwords > 0 %}
+      <a class="details-link" href="{{ selected.url | relative_url }}">View Details</a>
+    {% endif %}
+  </div>
+</div>
