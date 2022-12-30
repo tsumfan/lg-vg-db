@@ -1,2 +1,0 @@
-.orange { color: orange; }
-.red { .orange { background-color: red; }}
