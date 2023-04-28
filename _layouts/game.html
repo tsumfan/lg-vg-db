@@ -20,6 +20,9 @@ layout: default
       {% if page.image %}
       <div class="detail-thumb-wrapper">
         <img class="detail-thumb" src="{{ page.image | relative_url }}">
+        {% if page.video %}
+          <a class="video-link" href="{{ page.video.link }}" target="_blank">{%- include video-icon.html -%}{{ page.video.label }}</a>
+        {% endif %}
       </div>
       {% endif %}
 
@@ -28,7 +31,6 @@ layout: default
         <div class="platform-list">{%- include platform-links.html -%}</div>
         <div class="genre-list">{%- include genre-links.html -%}</div>
       </div>
-
 
       <div class="info-box-tag info-box info-box-detail">
         {{ content }}

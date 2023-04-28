@@ -7,5 +7,7 @@ genres:
   - adventure
 platforms:
   - ds
+video:
+  label: Gameplay
+  link: https://www.youtube.com/watch?v=oHC7rlu7krg
 ---
-

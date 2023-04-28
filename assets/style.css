@@ -373,7 +373,7 @@ body, html {
   border-radius: 8px;
   margin-bottom: 15px;
   margin-top: 4.5em;
-  margin-top: calc(4em + 21px);
+  margin-top: calc(6em + 21px);
   border: 2px solid #ffe8ee;
   background-color: #FCD0DC;
   box-shadow: 0 0 0 5px #4b1157, 0 0 0 7px #ffe8ee;
@@ -456,10 +456,9 @@ header a:focus, header a:active {
   margin-bottom: 10px;
 }
 
-.details-link {
+.details-link, .video-link {
   display: inline-block;
-  position: absolute;
-  background-color: #4b1157;
+  background-color: #6f1181;
   color: #ffe8ee;
   text-decoration: none;
   transition: background-color ease 0.4s;
@@ -467,20 +466,26 @@ header a:focus, header a:active {
   border-radius: 10px;
   padding: 10px;
   font-size: 1.1em;
+  box-shadow: 0 0 0 2px #ffe8ee;
+}
+
+.details-link:focus, .details-link:active,
+.video-link:focus, .video-link:active {
+  box-shadow: 0 0 0 5px #4b1157;
+}
+
+.details-link:hover,
+.video-link:hover {
+  background-color: #ffe8ee;
+  color: #4b1157;
+}
+
+.links-container {
+  display: inline-block;
   position: absolute;
   top: 100%;
   top: calc(100% - 20px);
   right: -15px;
-  box-shadow: 0 0 0 2px #ffe8ee;
-}
-
-.details-link:focus, .details-link:active {
-  box-shadow: 0 0 0 5px #4b1157;
-}
-
-.details-link:hover {
-  background-color: #ffe8ee;
-  color: #4b1157;
 }
 
 @media screen and (min-width: 640px) {
@@ -697,7 +702,19 @@ h1 > span {
   display: block;
 }
 
+.video-link svg {
+  height: 0.8em;
+  line-height: 1em;
+  vertical-align: middle;
+  margin-right: 1ex;
+  display: inline-block;
+}
+
 @media (min-width: 720px) {
+  .index-entry {
+    margin-top: calc(4em + 21px);
+  }
+
   .index-entry > img {
     max-width: 320px;
     float: left;

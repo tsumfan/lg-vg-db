@@ -10,6 +10,9 @@ platforms:
   - pc
   - ps4
   - switch
+video:
+  label: Trailer
+  link: https://www.youtube.com/watch?v=srBnJUg1V4Q
 ---
 
 A quiet evening stroll takes a turn for the worse as a tragic accident befalls a little girl and her dog. When her sister goes missing later in the night, the little girl decides to venture out into the eerie darkness to search for her loved ones as evil spirits haunt the alleyways and streets of her once-peaceful town. <sup>[Publisher Description](https://store.steampowered.com/app/477870/Yomawari_Night_Alone/){:target="_blank"}</sup>

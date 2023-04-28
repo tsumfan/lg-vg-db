@@ -11,8 +11,16 @@
       {%- include platform-links.html -%}
     </div>
     {% assign numwords = selected.content | number_of_words %}
-    {% if numwords > 0 %}
-      <a class="details-link" href="{{ selected.url | relative_url }}">View Details</a>
+    {% if numwords > 0 || selected.video %}
+      <div class="links-container">
+        {% if selected.video %}
+          <a class="video-link" href="{{ selected.video.link }}" target="_blank">{%- include video-icon.html -%}{{ selected.video.label }}</a>
+        {% endif %}
+        {% if numwords > 0 %}
+          <a class="details-link" href="{{ selected.url | relative_url }}">View Details</a>
+        {% endif %}
+      </div>
     {% endif %}
+
   </div>
 </div>
