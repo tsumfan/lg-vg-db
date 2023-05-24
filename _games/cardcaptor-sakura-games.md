@@ -14,5 +14,8 @@ platforms:
   - dreamcast
   - wonder-swan
   - gba
+video:
+  label: "Series Overview"
+  link: "https://www.youtube.com/watch?v=wVt3ea_nDY4"
 ---
 

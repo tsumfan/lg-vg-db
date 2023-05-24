@@ -9,5 +9,8 @@ platforms:
   - ps3
   - vita
   - pc
+video:
+  label: Trailer
+  link: "https://www.youtube.com/watch?v=LMDPwGAtB5A"
 ---
 

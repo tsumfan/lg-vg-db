@@ -8,5 +8,8 @@ genres:
   - adventure
 platforms:
   - pc
+video:
+  label: "Trailer"
+  link: "https://www.youtube.com/watch?v=JW-Q_DnV3B4"
 ---
 

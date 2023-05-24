@@ -13,6 +13,9 @@ platforms:
   - psp
   - wii-vc
   - turbografx-16-mini
+video:
+  label: "Boss Battle Gameplay"
+  link: "https://www.youtube.com/watch?v=gMWLlNVq-bw"
 ---
 
 Maria Renard is playable character after being rescued in Stage 2. [How To](https://www.youtube.com/watch?v=IzKkTqNRI3M){:target="_blank"}

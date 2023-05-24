@@ -9,5 +9,8 @@ genres:
 platforms:
   - wii-u
   - switch
+video:
+  label: "Trailer"
+  link: "https://www.youtube.com/watch?v=-xh-HuNsoBw"
 ---
 

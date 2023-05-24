@@ -9,5 +9,8 @@ genres:
 platforms:
   - pc
   - vita
+video:
+  label: "Trailer"
+  link: "https://www.youtube.com/watch?v=YdCQGmtUoUo"
 ---
 

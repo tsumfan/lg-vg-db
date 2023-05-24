@@ -7,5 +7,8 @@ genres:
   - 3d-platformer
 platforms:
   - ps2
+video:
+  label: "Trailer"
+  link: "https://www.youtube.com/watch?v=SKMr_Jdphf0"
 ---
 

@@ -10,5 +10,8 @@ platforms:
   - psp
   - wii
   - pc
+video:
+  label: "Trailer"
+  link: "https://www.youtube.com/watch?v=RJZx-0srJwI"
 ---
 

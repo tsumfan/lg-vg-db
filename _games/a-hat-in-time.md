@@ -11,5 +11,8 @@ platforms:
   - xbox-one
   - ps4
   - switch
+video:
+  label: "Trailer"
+  link: "https://www.youtube.com/watch?v=qDNz8JDIPck"
 ---
 

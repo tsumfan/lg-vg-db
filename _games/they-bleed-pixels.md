@@ -8,5 +8,8 @@ genres:
   - platformer
 platforms:
   - pc
+video:
+  label: "Trailer"
+  link: "https://www.youtube.com/watch?v=7X42GIOfuYo"
 ---
 

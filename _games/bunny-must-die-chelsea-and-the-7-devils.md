@@ -9,5 +9,8 @@ genres:
   - metroidvania
 platforms:
   - pc
+video:
+  label: Trailer
+  link: "https://www.youtube.com/watch?v=zR-TCn9uhac"
 ---
 

@@ -7,5 +7,8 @@ genres:
   - rpg
 platforms:
   - ds
+video:
+  label: "Gameplay"
+  link: "https://www.youtube.com/watch?v=kNYmrlcjZJE"
 ---
 

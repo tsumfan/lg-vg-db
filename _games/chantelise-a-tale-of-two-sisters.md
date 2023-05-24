@@ -7,5 +7,8 @@ genres:
   - action-rpg
 platforms:
   - pc
+video:
+  label: Trailer
+  link: "https://www.youtube.com/watch?v=BPG1VjkBqdo"
 ---
 
