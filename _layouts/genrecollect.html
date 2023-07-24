@@ -1,10 +1,25 @@
 ---
 layout: default
 ---
+<h1>Genres</h1>
 {% for genre in site.genres %}
-  <h2>
-    <a href="{{ genre.url | relative_url }}">
-      {{ genre.title }}
-    </a>
-  </h2>
+  {% assign gamecount = 0 %}
+  {% for game in site.games %}
+    {% assign selected = Nil %}
+    {% if game.genres contains genre.slug %}
+      {% assign selected = game %}
+    {% elsif game.genres contains genre.title %}
+      {% assign selected = game %}
+    {% endif %}
+
+  {% if selected %}
+    {% assign gamecount = gamecount|plus:1 %}
+  {% endif %}
+  {% endfor %}
+
+  {% if gamecount > 0 %}
+    {% assign selected=genre %}
+    {%- include tag-block.html -%}
+  {% endif %}
+
 {% endfor %}

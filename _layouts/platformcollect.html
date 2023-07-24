@@ -1,10 +1,26 @@
 ---
 layout: default
 ---
+
+<h1>Platforms</h1>
 {% for platform in site.platforms %}
-  <h2>
-    <a href="{{ platform.url | relative_url }}">
-      {{ platform.title }}
-    </a>
-  </h2>
+  {% assign gamecount = 0 %}
+  {% for game in site.games %}
+    {% assign selected = Nil %}
+    {% if game.platforms contains platform.slug %}
+      {% assign selected = game %}
+    {% elsif game.platforms contains platform.title %}
+      {% assign selected = game %}
+    {% endif %}
+
+  {% if selected %}
+    {% assign gamecount = gamecount|plus:1 %}
+  {% endif %}
+  {% endfor %}
+
+  {% if gamecount > 0 %}
+    {% assign selected=platform %}
+    {%- include tag-block.html -%}
+  {% endif %}
+
 {% endfor %}

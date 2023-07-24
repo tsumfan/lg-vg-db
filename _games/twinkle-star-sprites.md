@@ -11,7 +11,7 @@ platforms:
   - sega-saturn
   - dreamcast
   - ps2
-  - wii-virtualconsole
+  - wii-vc
   - psn
   - pc
 ---

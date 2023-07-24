@@ -1,0 +1,20 @@
+<div class="index-entry">
+    {% if selected.image %}
+      <img src="{{ selected.image | relative_url }}" alt="Thumbnail for {{ selected.title }}">
+    {% endif %}
+    <div class="entry-meta">
+    <h2>{{selected.title}}</h2>
+      {% assign numwords = selected.content | number_of_words %}
+      {% if numwords > 0 or selected.video %}
+        <div class="description">
+            {{ selected.content }}
+        </div>
+      {% endif %}
+      
+
+      <div class="links-container">
+          <a class="details-link" href="{{ selected.url | relative_url }}">
+            {% if gamecount > 1 || gamecount == 0 %}View {{gamecount}} Games{% else %}View 1 Game{% endif %}</a>
+      </div>
+    </div>
+  </div>
