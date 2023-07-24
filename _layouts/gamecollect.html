@@ -1,6 +1,10 @@
 ---
 layout: default
 ---
+
+{%- include common-platforms.html -%}
+{%- include common-genres.html -%}
+
 {% for game in site.games %}
   {% assign selected = game %}
   {%- include game-block.html -%}

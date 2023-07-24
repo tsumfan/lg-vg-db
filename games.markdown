@@ -1,3 +1,4 @@
 ---
 layout: gamecollect
+usenav: "no"
 ---
