@@ -48,10 +48,13 @@ layout: default
       for(index_ct = 0; index_ct < terms.length; index_ct++) {
         let term = terms[index_ct];
         let stemmed_term = stemmer(term);
+        let dist_stem;
+        let dist_term;
         for (index_term in index) {
-          if (levenshtein(index_term, stemmed_term) <= max_distance ||
-            levenshtein(index_term, term) <= max_distance) {
-            matches.push({"t":index_term,"match_docs":index[index_term]});
+          if ((dist_stem = levenshtein(index_term, stemmed_term)) <= max_distance ||
+            (dist_term = levenshtein(index_term, term)) <= max_distance) {
+            let closest = dist_stem < dist_term ? dist_stem : dist_term;
+            matches.push({"t":index_term,"match_docs":index[index_term],"closeness":closest});
           }
         }
       }
@@ -62,10 +65,12 @@ layout: default
       let x = 0;
       for(item = 0; item < matches.length; item++) {
         let docs_matched = matches[item].match_docs;
-        let termIdf = Math.log10(doc_count/docs_matched.length);
+        let closest_levenshtein = matches[item].closeness;
+        //idf + distance weight.
+        let termWeight = Math.log10(doc_count/docs_matched.length) + Math.log10((max_distance+1)/(closest_levenshtein+1));
         for (x = 0; x < docs_matched.length; x++) {
           let doc_index = docs_matched[x];
-          scores[doc_index] = scores[doc_index] ? scores[doc_index] + termIdf : termIdf;
+          scores[doc_index] = scores[doc_index] ? scores[doc_index] + termWeight : termWeight;
         }
       }
       let to_return = [];
