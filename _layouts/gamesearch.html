@@ -67,7 +67,7 @@ layout: default
         let docs_matched = matches[item].match_docs;
         let closest_levenshtein = matches[item].closeness;
         //idf + distance weight.
-        let termWeight = Math.log10(doc_count/docs_matched.length) + Math.log10((max_distance+1)/(closest_levenshtein+1));
+        let termWeight = Math.log10(doc_count/docs_matched.length) + (0.1*Math.log10((max_distance+1)/(closest_levenshtein+1)));
         for (x = 0; x < docs_matched.length; x++) {
           let doc_index = docs_matched[x];
           scores[doc_index] = scores[doc_index] ? scores[doc_index] + termWeight : termWeight;
