@@ -42,7 +42,7 @@ layout: default
       //{%- include levenshtein.js -%}{%- include porter-stemmer.js -%} ;let index = {% search_terms %}final{% endsearch_terms %};
 
       let max_distance = 1;
-      let terms = terms_input.toLowerCase().replace(/["']/g, "").split(/[^\w0-9]+/)
+      let terms = terms_input.trim().toLowerCase().replace(/["']/g, "").split(/[^\w0-9]+/)
       let index_ct = 0;
       let matches = [];
       for(index_ct = 0; index_ct < terms.length; index_ct++) {
@@ -84,7 +84,7 @@ layout: default
     }
     function handle_search_event() {
       const search_val = document.getElementById('search-entry').value;
-      let results = search_val ? engine_search(search_val) : [];
+      let results = search_val.trim() ? engine_search(search_val) : [];
       if (results.length == 0) {
         document.getElementById('result_area').innerHTML = '<span class="no-results">No results with that query</span>';
       } else {
