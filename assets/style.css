@@ -746,3 +746,47 @@ h1 > span {
     margin-left: 10px;
   }
 }
+
+#result_area {margin-top: 1em; margin-bottom: 1em; min-height: 20vh; }
+#search-entry {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #4b1157;
+  outline: none;
+  box-shadow: none;
+  flex-grow: 1;
+}
+#search-entry:focus {
+  outline: none;
+}
+.query-ui {
+  display: flex;
+  flex-direction: row;
+}
+.query-wrap {
+  width: 70%; 
+  max-width: 60vw;
+  display: flex;
+  flex-direction: row;
+  background-color: #d3fff0;
+  border: 2px solid #4b1157;
+  padding: 6px;
+  border-radius: 10px;
+  box-shadow: 0 0 0 5px #6affc8, 0 0 0 7px #4b1157;
+  margin-right: 20px;
+}
+.query-wrap:focus-within {
+  border: 2px solid #4b1157;
+  box-shadow: 0 0 0 5px #fdff6a, 0 0 0 7px #4b1157;
+  background-color: #fffed3;
+}
+#search-button {
+  padding: 6px;
+  border-radius: 10px;
+}
+
+#search-button:focus {
+  outline: none;
+  border: 2px solid #4b1157;
+  box-shadow: 0 0 0 5px #fdff6a, 0 0 0 7px #4b1157;
+}

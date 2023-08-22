@@ -1,0 +1,95 @@
+---
+layout: default
+---
+
+<div>
+  <h1><span>Search</span></h1>
+  <div class=" info-box info-box-detail">
+    <p>Loosely searches the title, tags, and description of game entries.</p>
+    <span class="query-ui">
+      <label class="query-wrap"><span>Search Input: </span><input type="text" id="search-entry"></label><button type="button" id="search-button">Search</button>
+    </span>
+  </div>
+</div>
+
+<div id="result_area"></div>
+<noscript>JavaScript is required for the search page.</noscript>
+
+{% for game in site.games %}
+  {% assign selected = game %}
+  {% capture selected_gameblock %}{%- include game-block.html -%}{% endcapture %}
+  {% capture docid %}{% search_terms %}{{selected_gameblock}}{{selected.content}}{% endsearch_terms %}{% endcapture %}
+  <script type="text/html" class="search-document" data-document-id="{{docid}}">{{selected_gameblock}}</script>
+{% endfor %}
+
+<script>
+  (function() {
+    let docs =  {};
+    let result_area = document.getElementById('result_area');
+    let docNodes = document.getElementsByClassName('search-document');
+    let doc_count = docNodes.length;
+    let i = 0;
+    for (i = 0; i < docNodes.length; i++) {
+      let item = docNodes.item(i);
+      docs[item.getAttribute('data-document-id')] = item.innerHTML;
+    }
+
+    function run_search(terms) {
+      results = engine_search(terms);
+      //Render here.
+    }
+    function engine_search(terms_input) {
+      //{%- include levenshtein.js -%}{%- include porter-stemmer.js -%} ;let index = {% search_terms %}final{% endsearch_terms %};
+
+      let max_distance = 1;
+      let terms = terms_input.toLowerCase().replace(/["']/g, "").split(/[^\w0-9]+/)
+      let index_ct = 0;
+      let matches = [];
+      for(index_ct = 0; index_ct < terms.length; index_ct++) {
+        let term = terms[index_ct];
+        let stemmed_term = stemmer(term);
+        for (index_term in index) {
+          if (levenshtein(index_term, stemmed_term) <= max_distance ||
+            levenshtein(index_term, term) <= max_distance) {
+            matches.push({"t":index_term,"match_docs":index[index_term]});
+          }
+        }
+      }
+      if (matches.length == 0) {
+        return [];
+      }
+      let scores = {};
+      let x = 0;
+      for(item = 0; item < matches.length; item++) {
+        let docs_matched = matches[item].match_docs;
+        let termIdf = Math.log10(doc_count/docs_matched.length);
+        for (x = 0; x < docs_matched.length; x++) {
+          let doc_index = docs_matched[x];
+          scores[doc_index] = scores[doc_index] ? scores[doc_index] + termIdf : termIdf;
+        }
+      }
+      let to_return = [];
+      for (doc in scores) {
+        to_return.push({"document": docs[doc], "score": scores[doc]});
+      }
+      to_return = to_return.filter(function(entry) {return entry.score>0;});
+      return to_return.sort(function(a,b) {
+        return b.score - a.score;
+      });
+    }
+    function handle_search_event() {
+      const search_val = document.getElementById('search-entry').value;
+      let results = search_val ? engine_search(search_val) : [];
+      if (results.length == 0) {
+        document.getElementById('result_area').innerHTML = '<span class="no-results">No results with that query</span>';
+      } else {
+        document.getElementById('result_area').innerHTML = results.reduce(function(accum, element) {
+          return accum + element.document;
+        }, '');
+      }
+    }
+    document.getElementById('search-entry').addEventListener('keyup', handle_search_event);
+    document.getElementById('search-button').addEventListener('click', handle_search_event);
+  })();
+
+</script>
