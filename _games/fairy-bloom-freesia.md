@@ -9,5 +9,8 @@ genres:
   - jrpg
 platforms:
   - pc
+video:
+  label: "Trailer"
+  link: "https://www.youtube.com/watch?v=ks-cBzjwNY0"
 ---
 

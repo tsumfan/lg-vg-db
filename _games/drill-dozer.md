@@ -8,5 +8,8 @@ genres:
   - platformer
 platforms:
   - gba
+video:
+  label: Trailer
+  link: "https://www.youtube.com/watch?v=P9IDaRx6SL4"
 ---
 

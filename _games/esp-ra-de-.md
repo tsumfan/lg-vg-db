@@ -9,5 +9,8 @@ platforms:
   - arcade
   - ps4
   - switch
+video:
+  label: Inori Gameplay
+  link: "https://www.youtube.com/watch?v=rsIJ_wvglzw"
 ---
 

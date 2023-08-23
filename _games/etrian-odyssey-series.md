@@ -9,5 +9,9 @@ genres:
 platforms:
   - ds
   - 3ds
+  - switch
+video:
+  label: "Etrian Odyssey Origins Trailer"
+  link: "https://www.youtube.com/watch?v=CaMv86lLRgY"
 ---
 

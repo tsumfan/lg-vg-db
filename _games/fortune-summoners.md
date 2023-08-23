@@ -9,5 +9,8 @@ genres:
   - dungeon-crawler
 platforms:
   - pc
+video:
+  label: "Video Review"
+  link: "https://www.youtube.com/watch?v=VbtV9WJyq0M"
 ---
 
