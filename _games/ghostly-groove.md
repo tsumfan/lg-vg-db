@@ -7,5 +7,8 @@ genres:
   - rhythm
 platforms:
   - 3ds
+video:
+  label: Trailer
+  link: "https://www.youtube.com/watch?v=VkT7yOD_D64"
 ---
 

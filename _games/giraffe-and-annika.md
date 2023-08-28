@@ -11,5 +11,8 @@ platforms:
   - xbox-one
   - switch
   - pc
+video:
+  label: Nintendo Switch Trailer
+  link: "https://www.youtube.com/watch?v=fudE9xXVlhQ"
 ---
 

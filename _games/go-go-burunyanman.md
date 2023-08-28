@@ -8,5 +8,8 @@ genres:
 platforms:
   - psp
   - pc
+video:
+  link: "https://www.youtube.com/watch?v=o3EApMBDgfM"
+  label: "Trailer"
 ---
 

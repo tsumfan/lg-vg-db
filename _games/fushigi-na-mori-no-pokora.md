@@ -8,5 +8,8 @@ genres:
   - catching
 platforms:
   - pc
+video:
+  label: Gameplay Sample
+  link: "https://www.youtube.com/watch?v=da3ETFBU9mo"
 ---
 

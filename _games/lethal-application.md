@@ -8,5 +8,8 @@ genres:
   - run-n-gun
 platforms:
   - pc
+video:
+  label: "Longplay"
+  link: "https://www.youtube.com/watch?v=Vhk5dDLQ5Ns"
 ---
 

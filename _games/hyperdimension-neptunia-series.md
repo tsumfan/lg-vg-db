@@ -11,5 +11,9 @@ platforms:
   - ps4
   - vita
   - pc
+video:
+  link: "https://www.youtube.com/watch?v=eq8Za-cVkrk"
+  label: "First Game's Trailer"
+note: Should list out all these games...
 ---
 

@@ -9,5 +9,9 @@ platforms:
   - psp
   - 3ds
   - pc
+  - switch
+video:
+  label: "Trailer"
+  link: "https://www.youtube.com/watch?v=LqoNp6Gn1GI"
 ---
 

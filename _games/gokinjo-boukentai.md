@@ -7,5 +7,8 @@ genres:
   - jrpg
 platforms:
   - snes
+video:
+  label: "Game Explanation"
+  link: "https://www.youtube.com/watch?v=MKFWemcFqt4"
 ---
 

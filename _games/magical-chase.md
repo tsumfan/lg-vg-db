@@ -10,5 +10,8 @@ platforms:
   - turbografx-16
   - gameboy-color
   - pc
+video:
+  link: "https://www.youtube.com/watch?v=vVVfGi9E8P4"
+  label: "Longplay"
 ---
 

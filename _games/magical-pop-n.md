@@ -7,5 +7,8 @@ genres:
   - platformer
 platforms:
   - snes
+video:
+  label: "Longplay"
+  link: "https://www.youtube.com/watch?v=8zgMAandcX4"
 ---
 

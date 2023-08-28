@@ -8,5 +8,8 @@ genres:
   - rpgmaker
 platforms:
   - pc
+video:
+  link: "https://www.youtube.com/watch?v=ARpewy9gvus"
+  label: "Trailer"
 ---
 

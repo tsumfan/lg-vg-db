@@ -8,5 +8,8 @@ genres:
 platforms:
   - snes
   - gameboy-color
+video:
+  label: "Speedrun"
+  link: "https://www.youtube.com/watch?v=XUSBWijqJYQ"
 ---
 

@@ -6,6 +6,9 @@ platforms:
 genres:
   - point-click
   - adventure
+video:
+  label: "Full Gameplay"
+  link: "https://www.youtube.com/watch?v=51c3eMyiHgE"
 ---
 
 Released in 1992 for MS-DOS, play as the real inspector - Penny - as she assists her clueless uncle in rescuing kidnapped United Nations members. Mission 1 is the only entry in this series.

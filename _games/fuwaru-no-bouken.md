@@ -8,5 +8,8 @@ genres:
   - jrpg
 platforms:
   - pc
+video:
+  label: Gameplay Sample
+  link: "https://www.youtube.com/watch?v=t0JKjgKXwMs"
 ---
 

@@ -13,5 +13,8 @@ platforms:
   - ios
   - android
   - pc
+video:
+  label: "Playstation Launch Trailer"
+  link: "https://www.youtube.com/watch?v=HLUY1nICQRY"
 ---
 

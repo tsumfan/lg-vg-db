@@ -9,5 +9,9 @@ genres:
   - hack-and-slash
 platforms:
   - pc
+  - switch
+video:
+  label: "Nintendo Switch Trailer"
+  link: "https://www.youtube.com/watch?v=58S9YTcxPmA"
 ---
 

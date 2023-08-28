@@ -8,5 +8,8 @@ genres:
   - scrolling-shooter
 platforms:
   - sega-saturn
+video:
+  label: "Longplay"
+  video: "https://www.youtube.com/watch?v=aOhKflH90k0"
 ---
 

@@ -11,5 +11,8 @@ platforms:
   - pc-engine
   - sharp-x68000
   - wii-vc
+video:
+  label: "Gameplay Sample"
+  link: "https://www.youtube.com/watch?v=-9rhRfj2_ag"
 ---
 

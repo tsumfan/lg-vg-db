@@ -9,5 +9,9 @@ genres:
   - survival-horror
 platforms:
   - pc
+  - switch
+video:
+  label: "Nintendo Switch Trailer"
+  link: "https://www.youtube.com/watch?v=V3jrnDe_8GM"
 ---
 

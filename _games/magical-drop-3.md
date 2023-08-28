@@ -13,5 +13,8 @@ platforms:
   - wii
   - zeebo
   - pc
+video:
+  label: "Longplay"
+  link: "https://www.youtube.com/watch?v=j27AdQ3_if4"
 ---
 

@@ -11,5 +11,8 @@ platforms:
   - android
   - ios
   - pc
+video:
+  link: "https://www.youtube.com/watch?v=ScO3SsbcFSU"
+  label: "Trailer"
 ---
 

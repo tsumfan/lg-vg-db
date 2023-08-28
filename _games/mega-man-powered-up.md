@@ -8,6 +8,9 @@ genres:
   - action
 platforms:
   - psp
+video:
+  label: "Roll Playthrough"
+  link: "https://www.youtube.com/watch?v=4vWb3kQW1PY"
 ---
 
 Requires free DLC to play as Roll.
