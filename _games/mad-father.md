@@ -15,3 +15,7 @@ video:
   link: "https://www.youtube.com/watch?v=V3jrnDe_8GM"
 ---
 
+Witness the tale of a most foolish family. A remake of the classic horror exploration game makes its way to Steam. <sup>[Publisher Description](https://store.steampowered.com/app/483980/Mad_Father/)</sup>
+
+* [Steam](https://store.steampowered.com/app/483980/Mad_Father/)
+* [Nintendo eShop](https://www.nintendo.com/store/products/mad-father-switch/)

@@ -14,3 +14,4 @@ video:
   link: "https://www.youtube.com/watch?v=rsIJ_wvglzw"
 ---
 
+ESP Ra.De. is a science fiction-themed vertical-scrolling bullet hell game similar to DoDonPachi where players assume the role of one of the three playable characters (Yūsuke Sagami, Jb-5th and Irori Mimasaka) through five increasingly difficult stages. <sup>[Wikipedia](https://en.wikipedia.org/wiki/ESP_Ra.De.)</sup>

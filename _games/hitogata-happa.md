@@ -13,3 +13,6 @@ video:
   link: "https://www.youtube.com/watch?v=niHux12VrIY"
 ---
 
+Shoot 'em up with the 3rd game in the Gundemonium Collection series. <sup>[Publisher Description](https://store.steampowered.com/app/92210/Hitogata_Happa/)</sup>
+
+* [Steam](https://store.steampowered.com/app/92210/Hitogata_Happa/)

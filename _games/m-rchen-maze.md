@@ -16,3 +16,4 @@ video:
   link: "https://www.youtube.com/watch?v=-9rhRfj2_ag"
 ---
 
+Märchen Maze is a 1988 isometric platform arcade game developed by N.H. System and published by Namco. Controlling a young girl named Alice, the player must complete each of the game's nine stages while avoiding enemies and falling off ledges. <sup>[Wikipedia](https://en.wikipedia.org/wiki/M%C3%A4rchen_Maze)</sup>
