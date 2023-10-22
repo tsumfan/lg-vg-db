@@ -10,6 +10,7 @@ platforms:
 video:
   label: "Gameplay Trailer"
   link: "https://www.youtube.com/watch?v=XPwGGe9V-ZU"
+mobygames: 74922
 ---
 
 100% Orange Juice! (100%おれんじじゅーすっ!) is a single player and multiplayer video game developed by Orange_Juice and published by Fruitbat Factory.

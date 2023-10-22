@@ -22,5 +22,9 @@ platforms:
   - mac
   - android
   - ios
+video:
+  label: Series Longplay
+  link: https://www.youtube.com/watch?v=h5K7yMwAZ_o
 ---
 
+Princess Maker is a series of social simulation bishōjo games where the player must act as a parental figure and raise a young girl. The series was produced by the video game and anime production company Gainax. <sup>[Wikipedia](https://en.wikipedia.org/wiki/Princess_Maker)</sup>
