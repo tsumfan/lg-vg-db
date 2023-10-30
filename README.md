@@ -1,6 +1,6 @@
 This is simply a catalog of games where you can play as a little girl.
 
-[Browse the collection on GitHub pages](https://github.com/tsumfan/lg-vg-db)
+[Browse the collection on GitHub pages](https://tsumfan.github.io/lg-vg-db/games)
 
 Have more to add? Open a PR!
 
