@@ -14,3 +14,5 @@ video:
 ---
 
 Puyo Puyo is a series of puzzle video games created by Compile and later Sonic Team. <sup>[Fandom Wiki](https://arleandcarbuncle.fandom.com/wiki/Puyo_Puyo_(series))</sup>
+
+* [Puyo Pop Fever (GBA) Long Play:](https://www.youtube.com/watch?v=mAUJP7oCEaw)

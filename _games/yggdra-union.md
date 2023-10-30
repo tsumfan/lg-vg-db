@@ -2,7 +2,7 @@
 title: Yggdra Union
 altnames:
 slug: yggdra-union
-image: /images/yggdra-union.png
+image: /images/yggdra-union.jpg
 genres:
   - srpg
   - strategy
